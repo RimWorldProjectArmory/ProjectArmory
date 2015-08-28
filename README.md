@@ -22,6 +22,6 @@ Based on a work at Ludeon.
 All weapons texture and code may be altered to the users liking to fit the world the user wants to create. You may add or remove weapons of your downloaded Project Armory Pack to further more customize your world. You are also allowed to publish Project Armory weapons in your own modpack or mod. The only thing we ask for is that you link to our forum page so people that like the weapons can download more of them.
 
 ### Links
-* <a herf=<>https://ludeon.com/forums/index.php?topic=1950.0>Main Forum post</a> 
+* <a herf=https://ludeon.com/forums/index.php?topic=1950.0>Main Forum post</a> 
 * <a herf=https://ludeon.com/forums/index.php?topic=2908.0>TestBoard</a> 
 * <a herf=https://ludeon.com/forums/index.php?topic=2265.msg20609>Recruitment</a>
