@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+<!--
+PROJECT ARMORY WEAPON
+
+CODE AUTHOR: Evul
+TEXTURE MAKER: Evul & Plymouth
+
+
+USER LICENSE:
+All weapons texture and code may be altered to the users
+liking to fit the world the user wants to create.
+You may add or remove weapons of your downloaded
+Project Armory Pack to further more customize your world.
+You are also allowed to publish Project Armory weapons
+in your own modpack or mod. The only thing we ask for
+is that you link to our forum page so people that like
+the weapons can download more of them.
+-->
+
+	<ThingDef Name="BaseGun" Abstract="True">
+		<category>Item</category>
+
+		<thingClass>ThingWithComps</thingClass>
+		<equipmentType>Primary</equipmentType>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<selectable>True</selectable>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+			<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<SellPriceFactor>0.5</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<techLevel>Spacer</techLevel>
+		<thingCategories>
+			<li>WeaponsRangedAssaultRifles</li>
+		</thingCategories>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<comps>
+			<li>
+				<compClass>CompForbiddable</compClass>
+			</li>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li>
+				<compClass>CompArt</compClass>
+				<nameMaker>NamerGun</nameMaker>
+				<descriptionMaker>ArtWeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+		<smeltProducts>
+		  <Plasteel>10</Plasteel>
+		</smeltProducts>
+	</ThingDef>
+	
+	<ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>Exotic</li>
+		</weaponTags>
+	</ThingDef>
+
+	<!-- ============================================================== -->
+	<!-- [ME2 Fire Rate 850rpm] [Barrel length 360] [Thermal Clip] -->
+	<!-- ============================================================== -->
+
+	<ThingDef ParentName="BaseHumanGun">
+		<defName>Gun_M7Lancer_PA</defName>
+		<label>M-7 Lancer</label>
+		<description>The M7-Lancer is a rare collector's item that was introduced shortly after the First Contact War. The Lancer has been refurbished by an unknown master weaponsmith, and it now uses the higher velocity rounds of today's weaponry. It does not need heat sinks, instead utilizing weapon heat-generation from an earlier era. Few of these finely crafted weapons are in existence.</description>
+		<graphicData>
+		<texPath>Things/Item/MassEffect/Gun_AR_M7Lancer</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractChargeRifle</soundInteract>
+		<statBases>
+			<MarketValue>1490</MarketValue>
+			<AccuracyTouch>0.94</AccuracyTouch>
+			<AccuracyShort>0.83</AccuracyShort>
+			<AccuracyMedium>0.71</AccuracyMedium>
+			<AccuracyLong>0.57</AccuracyLong>
+			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_M7Lancer_AR_PA</projectileDef>
+				<warmupTicks>165</warmupTicks>
+				<range>31</range>
+				<burstShotCount>7</burstShotCount>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<soundCast>ShotAssaultRifle</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+
+	</ThingDef>
+</ThingDefs>

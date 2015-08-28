@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LauncherData>
+	<launcherVersion>0.1</launcherVersion>
+	<modVersion>3.00</modVersion>
+	<modSettings>
+		<option>
+			<label>Vanilla Replacements</label>
+			<files>
+				<li>Defs/ThingDefs/PA_VanillaWeapon_Lee-Enfield.xml</li>
+				<li>Defs/ThingDefs/PA_VanillaWeapon_M-16Rifle.xml</li>
+				<li>Defs/ThingDefs/PA_VanillaWeapon_M-24Rifle.xml</li>
+				<li>Defs/ThingDefs/PA_VanillaWeapon_Pistol.xml</li>
+				<li>Defs/ThingDefs/PA_VanillaWeapon_Shotgun.xml</li>
+			</files>
+		</option>
+		<option>
+			<label></label>
+		</option>
+		<option>
+			<label>Modern Launchers</label>
+			<files>
+				<li>Defs/ThingDefs/PA_ModernLauncher_RPG7.xml</li>
+				<li>Defs/ThingDefs/PA_ModernLauncher_M79.xml</li>
+			</files>
+		</option>
+		<option>
+			<label>Modern Firearms</label>
+			<files>
+				<li>Defs/ThingDefs/PA_ModernWeapon_AA-12.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_AccuracyInternationalAWM.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_AK47.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_AK74M.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_AKs47U.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_ASval.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_BarrettM82.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_BarrettM107.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_CM901.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_ColtPolicePositive.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_DesertEagleMarkI.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_DragunovSVD.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_FAMASG2.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_FNFAL.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_FNP90.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_FranchiSPAS-12.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_Glock18.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_HoKG11.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_HoKG36C.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_HoKMP5A1.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_HoKMP5A2.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_HoKMP5K.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_HoKUMP45.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_Jackhammer.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_KRISSVector.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_L85.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_L85A1.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_Lupara.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_M4A1.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_M14.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_M14_EBR.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_M25.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_M30Luftwaffedrilling.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_M60machinegun.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_M249.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_M1911.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_Mac10.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_Mateba-Autorevolver.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_Mateba-Grifone.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_McMillan-Tac-50.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_Mossberg500.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_PKM.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_RPD.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_SA58Tactical.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_Saiga-12.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_SCAR-L-Mk16-Standard.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_SG552Commando.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_SmithAndWesson-Model_29.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_SteyrAUGA1.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_USAS-12.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_WaltherPPK.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_WaltherPPK_Supressed.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_Walther-WA2000.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_WinchesterModel70.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_VSSVintorez.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_vz58P.xml</li>
+				<li>Defs/ThingDefs/PA_ModernWeapon_vz58V.xml</li>
+			</files>
+		</option>
+		
+		<option>
+			<label>World War 2 Firearms</label>
+			<files>
+				<li>Defs/ThingDefs/PA_WorldWar2Weapon_Boys-AT-Rifle.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar2Weapon_Bren.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar2Weapon_British-Apache.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar2Weapon_Luger-P08.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar2Weapon_M2Browning.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar2Weapon_MauserC96.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar2Weapon_MP40.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar2Weapon_Nambu.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar2Weapon_Thompson1920.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar2Weapon_Thompson-M1928A1.xml</li>
+			</files>
+		</option>
+		<option>
+			<label>World War 1 Firearms</label>
+			<files>
+				<li>Defs/ThingDefs/PA_WorldWar1Weapon_Carcano-M91.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar1Weapon_Chauchat.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar1Weapon_Huot.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar1Weapon_LebelModel1886.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar1Weapon_M1918-BAR.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar1Weapon_MP-18.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar1Weapon_Ross_Rifle.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar1Weapon_Roth-Steyr-M1907.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar1Weapon_Star-M1914.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar1Weapon_Steyr-M1912.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar1Weapon_Steyr-M1912-MP.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar1Weapon_Steyr-Maanlicher-M1895.xml</li>
+				<li>Defs/ThingDefs/PA_WorldWar1Weapon_Webley.xml</li>
+			</files>
+		</option>
+		
+		<option>
+			<label>American Civil War Firearms</label>
+			<files>
+				<li>Defs/ThingDefs/PA_AmericanCivilWarWeapon_LeMat-Carbine.xml</li>
+				<li>Defs/ThingDefs/PA_AmericanCivilWarWeapon_LeMat-Revolver.xml</li>
+			</files>
+		</option>
+		<option>
+			<label>Prewar World War Firearms</label>
+			<files>
+				<li>Defs/ThingDefs/PA_PrewarWeapon_Apache.xml</li>
+				<li>Defs/ThingDefs/PA_PrewarWeapon_British-Bulldog.xml</li>
+				<li>Defs/ThingDefs/PA_PrewarWeapon_Gabbett-Fairfax-Mars.xml</li>
+				<li>Defs/ThingDefs/PA_PrewarWeapon_Madsen-Rasmussen-M1896.xml</li>
+				<li>Defs/ThingDefs/PA_PrewarWeapon_Sjorgen-Rifle.xml</li>
+				<li>Defs/ThingDefs/PA_PrewarWeapon_Sjorgen-Shotgun.xml</li>
+				<li>Defs/ThingDefs/PA_PrewarWeapon_Steyr-Mannlicher-M1894.xml</li>
+				<li>Defs/ThingDefs/PA_PrewarWeapon_Steyr-Mannlicher-M1901.xml</li>
+				<li>Defs/ThingDefs/PA_PrewarWeapon_Webley-Fosbery.xml</li>
+				<li>Defs/ThingDefs/PA_PrewarWeapon_Winchester-M1907.xml</li>
+			</files>
+		</option>
+		
+		<option>
+			<label>Prohibition Firearms (1920 to 1933)</label>
+			<files>
+				<li>Defs/ThingDefs/PA_ProhibitionWeapon_Browning-Auto5.xml</li>
+				<li>Defs/ThingDefs/PA_ProhibitionWeapon_Colt-Monitor.xml</li>
+				<li>Defs/ThingDefs/PA_ProhibitionWeapon_Lebman-M1907.xml</li>
+				<li>Defs/ThingDefs/PA_PrewarWeapon_Madsen-Rasmussen-M1896.xml</li>
+				<li>Defs/ThingDefs/PA_ProhibitionWeapon_Lebman-M1911.xml</li>
+				<li>Defs/ThingDefs/PA_ProhibitionWeapon_Sawed-Off-Browning-Auto5.xml</li>
+			</files>
+		</option>
+		<option>
+			<label></label>
+		</option>
+		
+		<option>
+			<label>Renaissance Launchers</label>
+			<files>
+				<li>Defs/ThingDefs/PA_RenaissanceLauncher_HandMortar.xml</li>
+			</files>
+		</option>
+		<option>
+			<label>Renaissance Firearms</label>
+			<files>
+				<li>Defs/ThingDefs/PA_RenaissanceWeapon_Dragon.xml</li>
+			</files>
+		</option>
+		
+		<option>
+			<label>Flintlock Weapons</label>
+			<files>
+				<li>Defs/ThingDefs/PA_FlintlockWeapon_Fowler-Ball.xml</li>
+				<li>Defs/ThingDefs/PA_FlintlockWeapon_Fowler-Shot.xml</li>
+				<li>Defs/ThingDefs/PA_FlintlockWeapon_Kentucky_Long_Rifle.xml</li>
+			</files>
+		</option>
+		<option>
+			<label></label>
+		</option>
+		
+		<option>
+			<label>SciFi Weapons</label>
+			<files>
+				<li>Defs/ThingDefs/PA_SciFi-007_Goldeneye-N64-Moonraker-Laser.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-007_Moonraker-Pistol.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-Alien2_Weapon-M41APulseRifle.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-Doom3_PlasmaGun.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-Firefly_Weapon-Vera.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-Halo_Weapon-MA5DICWS.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-MassEffect_Weapon-M8Avenger.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-MassEffect_Weapon-M-15Vindicator.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-OutwarsWeapon_M-81_Pulse_Rifle.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-ProjectArmory_Weapon-BRX-A1.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-ProjectArmory_Weapon-BRX-A2.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-ProjectArmory_Weapon-CS18.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-ProjectArmory_Weapon-ImprovisedPulseVenter.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-ProjectArmory_Weapon-ImprovisedVenter.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-StarshipTroopers_Weapon-MoritaMKIAssaultRifle.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-StarshipTroopers_Weapon-MoritaMKICarbine.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-StarWars_Grenade-ThermalDetonators.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-StarWars_Weapon-DH-17BlasterPistol.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-StarWars_Weapon-DL-44Blaster.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-StarWars_Weapon-E11Blaster.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-StarWars_Weapon-EE-3CarbineRifle.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-StarWars_Weapon-Sacros_K-11.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-Turok_RageWarsWeapon_PlasmaSniper.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-Turok_Turok2Weapon_PlasmaRifle.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-Turok_Turok2Weapon-RazorWind.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-Warhammer40K_Weapon-Bolter.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-Warhammer40K_Weapon-BoltPistol.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-Warhammer40K_Weapon-Heavy-Bolter.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-Warhammer40K_Weapon-Lasgun.xml</li>
+				<li>Defs/ThingDefs/PA_SciFi-Warhammer40K_Weapon-Laspistol.xml</li>
+			</files>
+		</option>
+		<option>
+			<label>Medieval Weapons</label>
+			<files>
+				<li>Defs/ThingDefs/PA_MedievalWeapon_Crossbow.xml</li>
+				<li>Defs/ThingDefs/PA_MedievalWeapon_YewLongbow.xml</li>
+			</files>
+		</option>
+		<option>
+			<label>Tribal Weapons</label>
+			<files>
+				<li>Defs/ThingDefs/PA_TribalWeapon_Atlatl.xml</li>
+				<li>Defs/ThingDefs/PA_TribalWeapon_Bolas.xml</li>
+				<li>Defs/ThingDefs/PA_TribalWeapon_Boomerang.xml</li>
+				<li>Defs/ThingDefs/PA_TribalWeapon_Chakram.xml</li>
+				<li>Defs/ThingDefs/PA_TribalWeapon_Falarica.xml</li>
+				<li>Defs/ThingDefs/PA_TribalWeapon_Kpinga.xml</li>
+				<li>Defs/ThingDefs/PA_TribalWeapon_Woomera.xml</li>
+			</files>
+		</option>
+	</modSettings>
+</LauncherData>

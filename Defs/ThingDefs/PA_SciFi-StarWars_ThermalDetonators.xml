@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<!-- ==================== Bases ========================== -->
+
+  <ThingDef Name="BaseEquipment" Abstract="True">
+
+    <equipmentType>Secondary</equipmentType>
+    <label>equipment lacks label</label>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+	  <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <description>Equipment lacks desc.</description>
+    <weaponTags>
+      <li>Grenade</li>
+    </weaponTags>
+    <comps>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+	  <li>
+		<compClass>CompQuality</compClass>
+		</li>
+		<li>
+			<compClass>CompArt</compClass>
+			<nameMaker>NamerGun</nameMaker>
+			<descriptionMaker>ArtWeaponGun</descriptionMaker>
+			<minQualityForArtistic>Excellent</minQualityForArtistic>
+		</li>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <thingCategories>
+      <li>Grenades</li>
+    </thingCategories>
+    <tickerType>Never</tickerType>
+  </ThingDef>
+
+
+  <ThingDef Name="BaseGrenade" Abstract="True">
+    <category>Projectile</category>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>Projectile_Explosive</thingClass>
+    <label>projectile</label>
+    <tickerType>Normal</tickerType>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <shaderType>Transparent</shaderType>
+    <projectile>
+      <speed>12</speed>
+      <flyOverhead>false</flyOverhead>
+    </projectile>
+  </ThingDef>
+
+
+
+	<!-- ==================== Frag grenade ========================== -->
+
+  <ThingDef ParentName="BaseGrenade">
+    <defName>Grenade_ThermalDetonator</defName>
+    <label>Thermal Detonator</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+		<texPath>Things/Projectile/Grenade_ThermalDetonator</texPath>
+	<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+    <projectile>
+      <explosionRadius >2.1</explosionRadius >
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <explosionDelay>200</explosionDelay>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseEquipment">
+    <defName>Weapon_ThermalDetonator</defName>
+    <equipmentType>Primary</equipmentType>
+    <label>Thermal Detonators</label>
+    <description>The thermal detonator is a highly unstable grenade-like weapon popular amoung military personel, bounty hunters and mercenaries alike. A useful barganing tool when doing buisness with slimey crimelords.</description>
+    <graphicData>
+		<texPath>Things/Item/StarWars/Grenadebelt_ThermalDetonators</texPath>
+	<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+    <soundInteract>InteractGrenade</soundInteract>
+		<statBases>
+			<MarketValue>200</MarketValue>
+		</statBases>
+    <techLevel>Spacer</techLevel>
+    <verbs>
+      <li>
+        <verbClass>Verb_LaunchProjectile</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>12.9</range>
+        <forcedMissRadius>1.0</forcedMissRadius>
+        <warmupTicks>108</warmupTicks>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <soundCast>ThrowGrenade</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <projectileDef>Grenade_ThermalDetonator</projectileDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+</ThingDefs>

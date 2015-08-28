@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+<!--
+PROJECT ARMORY WEAPON
+
+CODE AUTHOR: Plymouth
+TEXTURE MAKER: Plymouth
+
+
+USER LICENSE:
+All weapons texture and code may be altered to the users
+liking to fit the world the user wants to create.
+You may add or remove weapons of your downloaded
+Project Armory Pack to further more customize your world.
+You are also allowed to publish Project Armory weapons
+in your own modpack or mod. The only thing we ask for
+is that you link to our forum page so people that like
+the weapons can download more of them.
+-->
+
+	<ThingDef Name="BaseGun" Abstract="True">
+		<category>Item</category>
+
+		<thingClass>ThingWithComps</thingClass>
+		<equipmentType>Primary</equipmentType>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<selectable>True</selectable>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<SellPriceFactor>0.5</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<techLevel>Spacer</techLevel>
+		<thingCategories>
+			<li>WeaponsRangedAssaultRifles</li>
+		</thingCategories>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<comps>
+			<li>
+				<compClass>CompForbiddable</compClass>
+			</li>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li>
+				<compClass>CompArt</compClass>
+				<nameMaker>NamerGun</nameMaker>
+				<descriptionMaker>ArtWeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+		<smeltProducts>
+		  <Steel>20</Steel>
+		</smeltProducts>
+	</ThingDef>
+	
+	<ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
+		<weaponTags>
+			<li>W40KBolter</li>
+		</weaponTags>
+	</ThingDef>
+
+	<!-- ============================================================== -->
+
+	<ThingDef ParentName="BaseHumanGun" Name="XML_TigrusRyzaOptimizedPatternBolter_PA">
+		<defName>Gun_TigrusRyzaOptimizedPatternBolter_PA</defName>
+		<label>&quot;Gulliman's Eye&quot; Heresy Bolter</label>
+		<description> Tigrus Pattern bolter with an optimized Heat Exchange system and a Ryza Pattern targeting system. Handcrafted by techmarines during the events of Horus Heresy.\nCaliber: .75 Caliber Standard Bolt Round</description>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_TigrusRyzaOptimizedPatternBolters/Gun_AR_TigrusRyzaOptimizedPatternBolter</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPistol</soundInteract>
+		<statBases>
+			<MarketValue>1480</MarketValue>
+			<AccuracyTouch>0.97</AccuracyTouch>
+			<AccuracyShort>0.96</AccuracyShort>
+			<AccuracyMedium>0.92</AccuracyMedium>
+			<AccuracyLong>0.88</AccuracyLong>
+			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+		  <MoveSpeed>-0.19</MoveSpeed>
+		</equippedStatOffsets>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_75CaliberSBR_AR_PA</projectileDef>
+				<warmupTicks>170</warmupTicks>
+				<range>33</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+				<soundCast>ShotShotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+	<ThingDef ParentName="XML_TigrusRyzaOptimizedPatternBolter_PA">
+		<defName>Gun_AR_TigrusRyzaOptimizedPatternBolterA_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_TigrusRyzaOptimizedPatternBolters/Gun_AR_TigrusRyzaOptimizedPatternBolterA</texPath>
+	</ThingDef>
+		<ThingDef ParentName="XML_TigrusRyzaOptimizedPatternBolter_PA">
+		<defName>Gun_AR_TigrusRyzaOptimizedPatternBolterB_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_TigrusRyzaOptimizedPatternBolters/Gun_AR_TigrusRyzaOptimizedPatternBolterB</texPath>
+	</ThingDef>
+		<ThingDef ParentName="XML_TigrusRyzaOptimizedPatternBolter_PA">
+		<defName>Gun_AR_TigrusRyzaOptimizedPatternBolterC_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_TigrusRyzaOptimizedPatternBolters/Gun_AR_TigrusRyzaOptimizedPatternBolterC</texPath>
+	</ThingDef>
+		<ThingDef ParentName="XML_TigrusRyzaOptimizedPatternBolter_PA">
+		<defName>Gun_AR_TigrusRyzaOptimizedPatternBolterD_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_TigrusRyzaOptimizedPatternBolters/Gun_AR_TigrusRyzaOptimizedPatternBolterD</texPath>
+	</ThingDef>
+</ThingDefs>

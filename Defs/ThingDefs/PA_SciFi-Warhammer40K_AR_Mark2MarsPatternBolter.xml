@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+<!--
+PROJECT ARMORY WEAPON
+
+CODE AUTHOR: Plymouth
+TEXTURE MAKER: Plymouth
+
+
+USER LICENSE:
+All weapons texture and code may be altered to the users
+liking to fit the world the user wants to create.
+You may add or remove weapons of your downloaded
+Project Armory Pack to further more customize your world.
+You are also allowed to publish Project Armory weapons
+in your own modpack or mod. The only thing we ask for
+is that you link to our forum page so people that like
+the weapons can download more of them.
+-->
+
+	<ThingDef Name="BaseGun" Abstract="True">
+		<category>Item</category>
+
+		<thingClass>ThingWithComps</thingClass>
+		<equipmentType>Primary</equipmentType>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<selectable>True</selectable>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<SellPriceFactor>0.5</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<techLevel>Spacer</techLevel>
+		<thingCategories>
+			<li>WeaponsRangedAssaultRifles</li>
+		</thingCategories>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<comps>
+			<li>
+				<compClass>CompForbiddable</compClass>
+			</li>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li>
+				<compClass>CompArt</compClass>
+				<nameMaker>NamerGun</nameMaker>
+				<descriptionMaker>ArtWeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+		<smeltProducts>
+		  <Steel>20</Steel>
+		</smeltProducts>
+	</ThingDef>
+	
+	<ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
+		<weaponTags>
+			<li>W40KBolter</li>
+			</weaponTags>
+	</ThingDef>
+
+	<!-- ============================================================== -->
+
+	<ThingDef ParentName="BaseHumanGun" Name="XML_Mark2MarsPatternBolter_PA">
+		<defName>Gun_Mark2MarsPatternBolter_PA</defName>
+		<label>Mark 2 Mars Pattern Bolter</label>
+		<description>  Mars Pattern Mark II Scourge - The Mars Pattern Mark II Scourge Bolter is the preferred pattern of Bolter used by the Battle-Sisters of the Order of the Ebon Chalice's Abbey of Dawn on the world of Iocanthos in the Calixis Sector. Like the Godwyn-De'az Pattern Bolter, the Mark II Scourge Bolter can be used without difficulty by normal-sized humans. It also can make use of a Sarissa blade as a close-combat attachment. It is absent from this version of bolter.\nCaliber: .75 Caliber Standard Bolt Round</description>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark2MarsPatternBolters/Gun_AR_Mark2MarsPatternBolter</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPistol</soundInteract>
+		<statBases>
+			<MarketValue>675</MarketValue>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.70</AccuracyMedium>
+			<AccuracyLong>0.65</AccuracyLong>
+			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+		  <MoveSpeed>-0.10</MoveSpeed>
+		</equippedStatOffsets>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_75CaliberSBR_AR_PA</projectileDef>
+				<warmupTicks>85</warmupTicks>
+				<range>30</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>ShotShotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark2MarsPatternBolter_PA">
+		<defName>Gun_Mark2MarsPatternBolterA_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark2MarsPatternBolters/Gun_AR_Mark2MarsPatternBolterA</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark2MarsPatternBolter_PA">
+		<defName>Gun_Mark2MarsPatternBolterB_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark2MarsPatternBolters/Gun_AR_Mark2MarsPatternBolterB</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark2MarsPatternBolter_PA">
+		<defName>Gun_Mark2MarsPatternBolterC_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark2MarsPatternBolters/Gun_AR_Mark2MarsPatternBolterC</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark2MarsPatternBolter_PA">
+		<defName>Gun_Mark2MarsPatternBolterD_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark2MarsPatternBolters/Gun_AR_Mark2MarsPatternBolterD</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark2MarsPatternBolter_PA">
+		<defName>Gun_Mark2MarsPatternBolterE_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark2MarsPatternBolters/Gun_AR_Mark2MarsPatternBolterE</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark2MarsPatternBolter_PA">
+		<defName>Gun_Mark2MarsPatternBolterF_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark2MarsPatternBolters/Gun_AR_Mark2MarsPatternBolterF</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark2MarsPatternBolter_PA">
+		<defName>Gun_Mark2MarsPatternBolterG_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark2MarsPatternBolters/Gun_AR_Mark2MarsPatternBolterG</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark2MarsPatternBolter_PA">
+		<defName>Gun_Mark2MarsPatternBolterH_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark2MarsPatternBolters/Gun_AR_Mark2MarsPatternBolterH</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark2MarsPatternBolter_PA">
+		<defName>Gun_Mark2MarsPatternBolterI_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark2MarsPatternBolters/Gun_AR_Mark2MarsPatternBolterI</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark2MarsPatternBolter_PA">
+		<defName>Gun_Mark2MarsPatternBolterJ_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark2MarsPatternBolters/Gun_AR_Mark2MarsPatternBolterJ</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark2MarsPatternBolter_PA">
+		<defName>Gun_Mark2MarsPatternBolterK_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark2MarsPatternBolters/Gun_AR_Mark2MarsPatternBolterK</texPath>
+	</ThingDef>
+	</ThingDefs>

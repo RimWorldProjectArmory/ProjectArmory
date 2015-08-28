@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+<!--
+PROJECT ARMORY WEAPON
+
+CODE AUTHOR: Evul and Felime
+
+USER LICENSE:
+All weapons texture and code may be altered to the users
+liking to fit the world the user wants to create.
+You may add or remove weapons of your downloaded
+Project Armory Pack to further more customize your world.
+You are also allowed to publish Project Armory weapons
+in your own modpack or mod. The only thing we ask for
+is that you link to our forum page so people that like
+the weapons can download more of them.
+
+-->
+
+	<ThingDef Name="BaseBullet" Abstract="True">
+			<category>Projectile</category>
+			<tickerType>Normal</tickerType>
+			<altitudeLayer>Projectile</altitudeLayer>
+			<thingClass>ProjectArmory.PA_Bullet</thingClass>
+			<label>bullet</label>
+			<useHitPoints>False</useHitPoints>
+			<neverMultiSelect>True</neverMultiSelect>
+			<shaderType>Transparent</shaderType>
+	</ThingDef>
+
+<!-- THIS BULLET FILE REQUIRES ProjectArmory.dll to function.-->
+<!-- ============================================================== -->
+	<!-- .75 Caliber (SBR) | .75 Caliber Standard Bolt Round -->
+	<!-- Velocity: 1105 m/s -->
+	<!-- Energy:   1529 J -->
+	
+	<!-- NOTE: 40% of the DamageAmountBase is subtracted and added to ExplosionDamage. Example: A calculated value of 10 would give DamageAmountBase 6 and ExplosionDamage 4. -->
+<!-- ============================================================== -->
+
+	<!-- ASSAULT RIFLE -->
+	<ThingDef Class="ProjectArmory.PABulletDef" ParentName="BaseBullet">
+		<defName>Bullet_75CaliberSBR_AR_PA</defName>
+		<label>.75 Caliber Standard Bolt Round</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bolt_Standard_75</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>4</DamageAmountBase>
+			<Speed>71</Speed>
+		</projectile>
+		<HErounds>true</HErounds>
+		<ExplosionSize>0.3</ExplosionSize>
+		<ExplosionDamage>2</ExplosionDamage>
+	</ThingDef>
+	
+	<!-- PISTOL -->
+	<ThingDef Class="ProjectArmory.PABulletDef" ParentName="BaseBullet">
+		<defName>Bullet_75CaliberSBR_P_PA</defName>
+		<label>.75 Caliber Standard Bolt Round</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bolt_Standard_75</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>7</DamageAmountBase>
+			<Speed>71</Speed>
+		</projectile>
+		<HErounds>true</HErounds>
+		<ExplosionSize>0.3</ExplosionSize>
+		<ExplosionDamage>5</ExplosionDamage>
+	</ThingDef>
+
+	<!-- RIFLE -->
+	<ThingDef Class="ProjectArmory.PABulletDef" ParentName="BaseBullet">
+		<defName>Bullet_75CaliberSBR_R_PA</defName>
+		<label>.75 Caliber Standard Bolt Round</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bolt_Standard_75</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>8</DamageAmountBase>
+			<Speed>72</Speed>
+		</projectile>
+		<HErounds>true</HErounds>
+		<ExplosionSize>0.3</ExplosionSize>
+		<ExplosionDamage>6</ExplosionDamage>
+	</ThingDef>
+	
+	<!-- SNIPER RIFLE -->
+	<ThingDef Class="ProjectArmory.PABulletDef" ParentName="BaseBullet">
+		<defName>Bullet_75CaliberSBR_SR_PA</defName>
+		<label>.75 Caliber Standard Bolt Round</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bolt_Standard_75</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>18</DamageAmountBase>
+			<Speed>91</Speed>
+		</projectile>
+		<HErounds>true</HErounds>
+		<ExplosionSize>0.3</ExplosionSize>
+		<ExplosionDamage>12</ExplosionDamage>
+	</ThingDef>
+	
+<!-- ============================================================== -->
+	<!-- .75 Caliber (LRB) | .75 Caliber Liquid Rocket Booster -->
+	<!-- Velocity: 2100 m/s -->
+	<!-- Energy:   1129 J -->
+	
+	<!-- NOTE: 40% of the DamageAmountBase is subtracted and added to ExplosionDamage. Example: A calculated value of 10 would give DamageAmountBase 6 and ExplosionDamage 4. -->
+<!-- ============================================================== -->
+
+	<!-- SNIPER RIFLE -->
+	<ThingDef Class="ProjectArmory.PABulletDef" ParentName="BaseBullet">
+		<defName>Bullet_75CaliberLRB_SR_PA</defName>
+		<label>.75 Caliber Standard Bolt Round</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bolt_Standard_75</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>12</DamageAmountBase>
+			<Speed>91</Speed>
+		</projectile>
+		<HErounds>true</HErounds>
+		<ExplosionSize>0.3</ExplosionSize>
+		<ExplosionDamage>18</ExplosionDamage>
+	</ThingDef>
+	
+<!-- ============================================================== -->
+	<!-- 1.00 Caliber (SBR) | 1.00 Caliber Standard Bolt Round -->
+	<!-- Velocity:  1381 m/s -->
+	<!-- Energy:    4657 J -->
+
+	<!-- NOTE: ExplosionDamage is set to DamageAmountBase times 5 rounded up.-->
+<!-- ============================================================== -->
+
+	<!-- HEAVY MACHINE GUN  -->  
+	<ThingDef Class="ProjectArmory.PABulletDef" ParentName="BaseBullet">
+		<defName>Bullet_100CaliberSBR_HMG_PA</defName>
+		<label>1.00 Caliber Standard Bolt Round</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bolt_Standard_75</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>3</DamageAmountBase>
+			<Speed>78</Speed>
+		</projectile>
+		<HErounds>true</HErounds>
+		<ExplosionSize>0.3</ExplosionSize>
+		<ExplosionDamage>14</ExplosionDamage>
+	</ThingDef>
+
+<!-- ============================================================== -->
+	<!-- Laslaser -->
+	<!-- Velocity:   m/s -->
+	<!-- Energy:     J -->
+<!-- ============================================================== -->
+
+	<!-- RIFLE -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Las25_R_PA</defName>
+		<label>Laser</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_LaserRay</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>4</DamageAmountBase>
+			<Speed>90</Speed>
+		</projectile>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Las50_R_PA</defName>
+		<label>Laser</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_LaserRay</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>8</DamageAmountBase>
+			<Speed>90</Speed>
+		</projectile>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Las75_R_PA</defName>
+		<label>Laser</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_LaserRay</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>12</DamageAmountBase>
+			<Speed>90</Speed>
+		</projectile>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Las100_R_PA</defName>
+		<label>Laser</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_LaserRay</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>16</DamageAmountBase>
+			<Speed>90</Speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- PISTOL -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Las25_P_PA</defName>
+		<label>Laser</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_LaserRay</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>5</DamageAmountBase>
+			<Speed>90</Speed>
+		</projectile>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Las50_P_PA</defName>
+		<label>Laser</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_LaserRay</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>10</DamageAmountBase>
+			<Speed>90</Speed>
+		</projectile>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Las75_P_PA</defName>
+		<label>Laser</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_LaserRay</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>15</DamageAmountBase>
+			<Speed>90</Speed>
+		</projectile>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Las100_P_PA</defName>
+		<label>Laser</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_LaserRay</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>20</DamageAmountBase>
+			<Speed>90</Speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- SNIPER RIFLE -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Las25_SR_PA</defName>
+		<label>Laser</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_LaserRay</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>19</DamageAmountBase>
+			<Speed>90</Speed>
+		</projectile>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Las50_SR_PA</defName>
+		<label>Laser</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_LaserRay</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>22</DamageAmountBase>
+			<Speed>90</Speed>
+		</projectile>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Las75_SR_PA</defName>
+		<label>Laser</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_LaserRay</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>26</DamageAmountBase>
+			<Speed>90</Speed>
+		</projectile>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet" Name="XML_Las100_SR_PA">
+		<defName>Bullet_Las100_SR_PA</defName>
+		<label>Laser</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_LaserRay</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>30</DamageAmountBase>
+			<Speed>90</Speed>
+		</projectile>
+	</ThingDef>
+				<ThingDef ParentName="XML_Las100_SR_PA">
+					<defName>Bullet_IRLas100_SR_PA</defName>
+					<graphicData>
+		<texPath>Things/Projectile/Bullet_Empty</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+				</ThingDef>
+	
+<!-- ============================================================== -->
+	<!-- HotShotLasLaser -->
+	<!-- Velocity:   m/s -->
+	<!-- Energy:     J -->
+<!-- ============================================================== -->
+
+	<!-- PISTOL -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_HotShotLas25_P_PA</defName>
+		<label>Laser</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_LaserRay</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>8</DamageAmountBase>
+			<Speed>90</Speed>
+		</projectile>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_HotShotLas50_P_PA</defName>
+		<label>Laser</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_LaserRay</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>14</DamageAmountBase>
+			<Speed>90</Speed>
+		</projectile>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_HotShotLas75_P_PA</defName>
+		<label>Laser</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_LaserRay</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>18</DamageAmountBase>
+			<Speed>90</Speed>
+		</projectile>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_HotShotLas100_P_PA</defName>
+		<label>Laser</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_LaserRay</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>24</DamageAmountBase>
+			<Speed>90</Speed>
+		</projectile>
+	</ThingDef>
+	
+</ThingDefs>
