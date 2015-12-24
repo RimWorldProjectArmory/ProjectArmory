@@ -55,7 +55,7 @@ the weapons can download more of them.
 
 
 <!-- ============================================================== -->
-	<!--   7.92×33mm Kurz -->
+	<!--   7.92x33mm Kurz -->
 	<!-- Velocity:   685 m/s -->
 	<!-- Energy:    1,909 J -->
 	<!-- for Stg 44  -->
@@ -249,7 +249,7 @@ the weapons can download more of them.
 		</projectile>
 	</ThingDef>
 	<!-- ============================================================== -->
-	<!-- 7.62×25mm Tokarev  -->
+	<!-- 7.62x25mm Tokarev  -->
 	<!-- Velocity:   502 m/s -->
 	<!-- Energy:     693 J -->
 	<!-- SMG:
@@ -271,7 +271,7 @@ the weapons can download more of them.
 		</projectile>
 	</ThingDef>
 	<!-- ============================================================== -->
-	<!-- 7,62×53mmR Finnish  -->
+	<!-- 7,62x53mmR Finnish  -->
 	<!-- Velocity:   812 m/s -->
 	<!-- Energy:     3,960  J -->
 	<!-- LMG: -->
@@ -281,7 +281,7 @@ the weapons can download more of them.
 <!-- ============================================================== -->
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_762x53mmR_LMG_PA</defName>
-		<label>7,62×53mmR Finnish</label>
+		<label>7,62x53mmR Finnish</label>
 		<graphicData>
 		<texPath>Things/Projectile/Bullet_Medium</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -294,7 +294,7 @@ the weapons can download more of them.
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_762x53mmR_SR_PA</defName>
-		<label>7,62×53mmR Finnish</label>
+		<label>7,62x53mmR Finnish</label>
 		<graphicData>
 		<texPath>Things/Projectile/Bullet_Medium</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -356,15 +356,15 @@ the weapons can download more of them.
 		</projectile>
 	</ThingDef>
 	<!-- ============================================================== -->
-	<!-- 20×138mmB Long Solothurn -->
+	<!-- 20x138mmB Long Solothurn -->
 	<!--Velocity:900 m/s -->
 	<!-- Energy:    46,986  J -->
 	<!-- SR: -->
 	<!-- for Lahti L-39 -->
 <!-- ============================================================== -->
 <ThingDef ParentName="BaseBullet">
-<defName>Bullet_20×138mmB_SR_PA</defName>
-		<label>20×138mmB Long Solothurn</label>
+<defName>Bullet_20x138mmB_SR_PA</defName>
+		<label>20x138mmB Long Solothurn</label>
 		<graphicData>
 		<texPath>Things/Projectile/Bullet_Big</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -376,7 +376,7 @@ the weapons can download more of them.
 		</projectile>
 	</ThingDef>
 	<!-- ============================================================== -->
-	<!--  7.5×54mm French -->
+	<!--  7.5x54mm French -->
 	<!-- Velocity:   850 m/s -->
 	<!-- Energy:    3,550 J -->
 	<!-- R: -->
@@ -389,8 +389,8 @@ the weapons can download more of them.
 	
 	<!-- ============================================================== -->
 	<ThingDef ParentName="BaseBullet">
-	<defName>Bullet_75×54mmFrench_R_PA</defName>
-		<label>7.5×54mm French</label>
+	<defName>Bullet_75x54mmFrench_R_PA</defName>
+		<label>7.5x54mm French</label>
 		<graphicData>
 		<texPath>Things/Projectile/Bullet_Medium</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -402,8 +402,8 @@ the weapons can download more of them.
 		</projectile>
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
-	<defName>Bullet_75×54mmFrench_SR_PA</defName>
-		<label>7.5×54mm French</label>
+	<defName>Bullet_75x54mmFrench_SR_PA</defName>
+		<label>7.5x54mm French</label>
 		<graphicData>
 		<texPath>Things/Projectile/Bullet_Medium</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -415,8 +415,8 @@ the weapons can download more of them.
 		</projectile>
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
-	<defName>Bullet_75×54mmFrench_LMG_PA</defName>
-		<label>7.5×54mm French</label>
+	<defName>Bullet_75x54mmFrench_LMG_PA</defName>
+		<label>7.5x54mm French</label>
 		<graphicData>
 		<texPath>Things/Projectile/Bullet_Medium</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -429,7 +429,7 @@ the weapons can download more of them.
 	</ThingDef>
 	
 	<!-- ============================================================== -->
-	<!--7.92×94mm Patronen-->
+	<!--7.92x94mm Patronen-->
 	<!-- Velocity:  1,210 m/s   -->
 	<!-- Energy:    7,806 J -->
 	<!-- SR: -->
@@ -437,7 +437,7 @@ the weapons can download more of them.
 <!-- ============================================================== -->
 	<ThingDef ParentName="BaseBullet">
 	<defName>Bullet_792x94mmPatronen_SR_PA</defName>
-		<label>7.92×94mm Patronen</label>
+		<label>7.92x94mm Patronen</label>
 		<graphicData>
 		<texPath>Things/Projectile/Bullet_Medium</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -450,7 +450,7 @@ the weapons can download more of them.
 	</ThingDef>
 	
 	<!-- ============================================================== -->
-	<!--14.5×114 mm -->
+	<!--14.5x114 mm -->
 	<!-- Velocity:  1,000 m/s   -->
 	<!-- Energy:    33,250 J -->
 	<!-- SR: -->
@@ -458,7 +458,7 @@ the weapons can download more of them.
 <!-- ============================================================== -->
 <ThingDef ParentName="BaseBullet">
 <defName>Bullet_145x114mm_SR_PA</defName>
-		<label>14.5×114 mm</label>
+		<label>14.5x114 mm</label>
 		<graphicData>
 		<texPath>Things/Projectile/Bullet_Big</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
