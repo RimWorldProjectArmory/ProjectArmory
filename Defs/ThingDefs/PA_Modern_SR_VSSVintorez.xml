@@ -80,7 +80,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_VSSVintorez_PA</defName>
 		<label>VSS Vintorez</label>
-		<description>The VSS also called the Vintorez ("thread cutter"), is a suppressed ancient pattern sniper rifle that uses a heavy subsonic 9×39 mm SP-5 cartridge.\nCaliber: 9x39mm</description>
+		<description>The VSS also called the Vintorez ("thread cutter"), is a suppressed ancient pattern sniper rifle that uses a heavy subsonic 9x39 mm SP-5 cartridge.\nCaliber: 9x39mm</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_SR_VSSVintorez</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -92,7 +92,7 @@ the weapons can download more of them.
 			<AccuracyShort>0.87</AccuracyShort>
 			<AccuracyMedium>0.77</AccuracyMedium>
 			<AccuracyLong>0.64</AccuracyLong>
-			<RangedWeapon_Cooldown>2.33</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li>

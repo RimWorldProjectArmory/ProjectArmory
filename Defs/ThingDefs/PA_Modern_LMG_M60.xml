@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_M60_PA</defName>
 		<label>M60</label>
-		<description>The M60 is a popular mid-20th century pattern of light machineguns which is actively employed and manufactured today by people who can't afford non-projectile based machineguns and have a tight budget. M60 will get the job done.\nCaliber: 7.62×51mm NATO</description>
+		<description>The M60 is a popular mid-20th century pattern of light machineguns which is actively employed and manufactured today by people who can't afford non-projectile based machineguns and have a tight budget. M60 will get the job done.\nCaliber: 7.62x51mm NATO</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_LMG_M60</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
