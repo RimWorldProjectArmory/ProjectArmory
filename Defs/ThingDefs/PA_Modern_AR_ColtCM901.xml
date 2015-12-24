@@ -80,7 +80,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_ColtCM901_PA</defName>
 		<label>Colt CM901</label>
-		<description> The Colt CM901 is a modular firearms platform that can be converted from an assault rifle to a designated marksman rifle as well as short barrel carbine without the use of tools.\nCaliber: 5.56x45mm NATO</description>
+		<description> The Colt CM901 is based of M16/M4 family of ancient pattern assault rifles dating back to 20th century. The CM901 is a modular firearms platform that can be converted from an assault rifle to a designated marksman rifle as well as short barrel carbine without the use of tools. \nCaliber: 5.56x45mm NATO</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_AR_ColtCM901</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

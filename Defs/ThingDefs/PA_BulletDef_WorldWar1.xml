@@ -16,6 +16,8 @@ in your own modpack or mod. The only thing we ask for
 is that you link to our forum page so people that like
 the weapons can download more of them.
 
+https://en.wikipedia.org/wiki/List_of_infantry_weapons_of_World_War_I
+
 -->
 
 	<ThingDef Name="BaseBullet" Abstract="True">
@@ -26,19 +28,31 @@ the weapons can download more of them.
 			<label>bullet</label>
 			<useHitPoints>False</useHitPoints>
 			<neverMultiSelect>True</neverMultiSelect>
-			<shaderType>Transparent</shaderType>
+			
+      <shaderType>Transparent</shaderType>
+  
 	</ThingDef>
 	
 <!-- ============================================================== -->
-	<!-- 8mm Lebel | 8x51mmR French -->
+	<!-- 8mm Lebel | 8x50mmR French -->
 	<!-- Velocity:    730 m/s -->
 	<!-- Energy:     3364 J -->
+	<!-- R: -->
+	<!-- for Fusil Gras (M1874/1880) -->
+	<!-- for Berthier (M1892) -->
+	<!-- for RSC (M1917) -->
+	<!-- SMG: -->
+	<!-- Chauchat-Ribeyrolles (1918) -->
+	<!-- LMG: -->
+	<!-- for Chauchat (M1915) -->
+	
+	
 <!-- ============================================================== -->
 
 	<!-- RIFLE -->
 	<ThingDef ParentName="BaseBullet" Name="XML_8mmLebel_R_PA">
 		<defName>Bullet_8mmLebel_R_PA</defName>
-		<label>8mm Lebel</label>
+		<label>8x50mm Lebel</label>
 		<graphicData>
 		<texPath>Things/Projectile/Bullet_Small</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -53,5 +67,486 @@ the weapons can download more of them.
 					<defName>Bullet_8x51mmRFrench_R_PA</defName>
 					<label>8x51mmR French</label>
 				</ThingDef>
+	<ThingDef ParentName="BaseBullet" Name="XML_8mmLebel_LMG_PA">
+	<defName>Bullet_8x50mmRFrench_LMG_PA</defName>
+		<label>8x50mm Lebel</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>7</DamageAmountBase>
+			<Speed>69</Speed>
+		</projectile>
+	</ThingDef>
 
+<ThingDef ParentName="BaseBullet" Name="XML_8mmLebel_SMG_PA">
+<defName>Bullet_8x50mmRFrench_SMG_PA</defName>
+		<label>8x50mm Lebel</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>10</DamageAmountBase>
+			<Speed>59</Speed>
+		</projectile>
+		</ThingDef>
+
+
+				
+
+
+
+<!-- ============================================================== -->
+	<!--  7,62x38mmR -->
+	<!-- Velocity:   327 m/s -->
+	<!-- Energy:    340 J -->
+	<!-- for nagant revolver (M1895) -->
+	
+	<!-- ============================================================== -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_762x38mmR_P_PA</defName>
+		<label>7,62x38mmR</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>10</DamageAmountBase>
+			<Speed>55</Speed>
+		</projectile>
+	</ThingDef>
+
+
+<!-- ============================================================== -->
+	<!--  7.62×54mmR FMJ -->
+	<!-- Velocity:   865 m/s -->
+	<!-- Energy:    3,629 J -->
+	<!-- for Berdan II rifle (M1870)  -->
+	<!-- for Mosin-Nagant (M1891) -->
+	<!-- for DP-26 -->
+	<!-- ============================================================== -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_762x54mmR_R_PA</defName>
+		<label>7,62x54mmR</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Medium</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>18</DamageAmountBase>
+			<Speed>70</Speed>
+		</projectile>
+	</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_762x54mmR_SR_PA</defName>
+		<label>7.62x54mmR</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Big</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>34</DamageAmountBase>
+			<Speed>99</Speed>
+		</projectile>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_762x54mmR_LMG_PA</defName>
+		<label>7.62x54mmR</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Big</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>8</DamageAmountBase>
+			<Speed>70</Speed>
+		</projectile>
+	</ThingDef>
+	
+<!-- ============================================================== -->
+	<!--  11x60mm Mauser -->
+	<!-- Velocity:   440 m/s -->
+	<!-- Energy:    2,280 J -->
+	<!-- for Mauser (M1871)  -->
+	
+	<!-- ============================================================== -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_11x60mm_R_PA</defName>
+		<label>11x60mm</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Medium</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>15</DamageAmountBase>
+			<Speed>68</Speed>
+		</projectile>
+	</ThingDef>
+
+
+
+
+
+<!-- ============================================================== -->
+	
+	
+	
+	<!--  7.7x56 mmR (.303 British) -->
+	<!-- Velocity:   783 m/s -->
+	<!-- Energy:    3,574 J -->
+	<!-- R:
+	<!-- for Martini-Henry (M1871)  -->
+	<!-- for Arisaka Type 30 -->
+	<!-- for Enfield P1914 -->
+	<!-- for Lee-Metford Mk I&II -->
+	<!-- for Martini-Enfield Mk I&II -->
+	<!-- for Ross Rifle -->
+	<!-- LMG: -->
+	<!-- for Hotchkiss (M1909) -->
+	<!-- for Lewis (M1914) -->
+	<!-- for Bren (M1930) -->
+	<!-- AR: -->
+	<!-- for Farquhar-Hill P1918 -->
+	<!-- SR: -->
+	<!-- Enfield P1914 Scoped -->
+
+	<!-- ============================================================== -->
+	<ThingDef ParentName="BaseBullet"Name="77x56mmR_R_PA">
+		<defName>Bullet_77x56mmR_R_PA</defName>
+		<label>7.7x56 mmR</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Medium</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>18</DamageAmountBase>
+			<Speed>69</Speed>
+		</projectile>
+	</ThingDef>
+	<ThingDef ParentName="77x56mmR_LMG_PA">
+		<defName>Bullet_303British_R_PA</defName>
 </ThingDefs>
+<ThingDef ParentName="BaseBullet"Name="77x56mmR_LMG_PA">
+		<defName>Bullet_77x56mmR_LMG_PA</defName>
+		<label>7.7x56 mmR</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Medium</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>8</DamageAmountBase>
+			<Speed>70</Speed>
+		</projectile>
+	</ThingDef>
+	<ThingDef ParentName="77x56mmR_LMG_PA">
+		<defName>Bullet_303British_LMG_PA</defName>
+</ThingDefs>
+<ThingDef ParentName="BaseBullet"Name="77x56mmR_SR_PA">
+		<defName>Bullet_77x56mmR_SR_PA</defName>
+		<label>7.7x56 mmR</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Medium</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>34</DamageAmountBase>
+			<Speed>99</Speed>
+		</projectile>
+	</ThingDef>
+	
+	<ThingDef ParentName="77x56mmR_SR_PA">
+		<defName>Bullet_303British_SR_PA</defName>
+
+
+<!-- ============================================================== -->
+	<!--  .32 ACP FMJ -->
+	<!-- Velocity:   318 m/s -->
+	<!-- Energy:    240 J -->
+	<!-- P: -->
+	<!-- for FN Browning (M1900)  -->
+	<!-- for Dreyse (M1907) -->
+	<!-- for Frommer (M1912) -->
+	<!-- for Ruby (M1914) -->
+	<!-- for Mauser HSc -->
+	<!-- SMG: -->
+	<!-- MAS-38 -->
+	<!-- ============================================================== -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_32ACP_P_PA</defName>
+		<label>.32 ACP</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>9</DamageAmountBase>
+			<Speed>55</Speed>
+		</projectile>
+	</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_32ACP_SMG_PA</defName>
+		<label>.32 ACP</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>4</DamageAmountBase>
+			<Speed>54</Speed>
+		</projectile>
+	</ThingDef>
+
+
+<!-- ============================================================== -->
+	<!--  7,65x21mm Mannlicher FMJ -->
+	<!-- Velocity:   340 m/s -->
+	<!-- Energy:    308 J -->
+	<!-- for Mannlicher M1901  -->
+	
+	<!-- ============================================================== -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_765x21mm_P_PA</defName>
+		<label>7,65x21mm Mannlicher</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>10</DamageAmountBase>
+			<Speed>55</Speed>
+		</projectile>
+	</ThingDef>
+
+<!-- ============================================================== -->
+	<!--  8x18mm Roth-Steyr -->
+	<!-- Velocity:   332 m/s -->
+	<!-- Energy:    409 J -->
+	<!-- for Roth-Krnka (M1907)  -->
+	
+	<!-- ============================================================== -->
+		<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_765x21mm_P_PA</defName>
+		<label>7,65x21mm Mannlicher</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>10</DamageAmountBase>
+			<Speed>55</Speed>
+		</projectile>
+	</ThingDef>
+
+<!-- ============================================================== -->
+	<!--  7,92x57mm Mauser ID/IS -->
+	<!-- Velocity:   800 m/s -->
+	<!-- Energy:    4,096 J -->
+	<!-- R: -->
+	<!-- for Gewehr 88 (M1888)  -->
+	<!-- for Gewehr 98 (M1898)  -->
+	<!-- for Karbiner 98k -->
+	<!-- for FG 42 -->
+	<!-- for Gewehr 43 -->
+	<!-- LMG: -->
+	<!-- for Madsen (M1902) -->
+	<!-- for ZB vz. 26 -->
+	<!-- for MG 30 -->
+	<!-- for MG 42 -->
+	
+	<!-- SR: -->
+	<!-- FG 42(Scoped) -->
+	<!-- Gewehr 98 (Scoped) -->
+	<!-- Karabiner 98k (Scoped) -->
+	<!-- 
+	
+	
+	<!-- ============================================================== -->
+<ThingDef ParentName="BaseBullet">
+	<defName>Bullet_792x57mm_R_PA</defName>
+		<label>7,92x57mm Mauser ID</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Medium</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>20</DamageAmountBase>
+			<Speed>69</Speed>
+		</projectile>
+	</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+<defName>Bullet_792x57mm_LMG_PA</defName>
+		<label>7,92x57mm Mauser ID</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Medium</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>9</DamageAmountBase>
+			<Speed>69</Speed>
+		</projectile>
+	</ThingDef>
+<ThingDef ParentName="BaseBullet">
+<defName>Bullet_792x57mm_SR_PA</defName>
+		<label>7,92x57mm Mauser ID</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Medium</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>35</DamageAmountBase>
+			<Speed>69</Speed>
+		</projectile>
+	</ThingDef>
+
+<!-- ============================================================== -->
+	<!--  8x52mmR Mannlicher RN -->
+	<!-- Velocity:   530 m/s -->
+	<!-- Energy:    2,249 J -->
+	<!-- for Mannlicher (M1888)  -->
+	<!-- EVERYTHING ABOVE IS DONE, BELOW- IS TO BE DONE -->
+	<!-- ============================================================== -->
+	<ThingDef ParentName="BaseBullet">
+	<defName>Bullet_8x52mmR_R_PA</defName>
+		<label>8x52mmR Mannlicher RN</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Medium</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>15</DamageAmountBase>
+			<Speed>68</Speed>
+		</projectile>
+	</ThingDef>
+
+
+
+
+
+	<!-- ============================================================== -->
+	<!--   13.2mm TuF -->
+	<!-- Velocity:   785 m/s -->
+	<!-- Energy:    15,868 J -->
+	<!-- for Mauser (M1918)  -->
+	
+	<!-- ============================================================== -->
+	<ThingDef ParentName="BaseBullet">
+	<defName>Bullet_13.2mmTuF_SR_PA</defName>
+		<label>13.2mm TuF</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Big</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>59</DamageAmountBase>
+			<Speed>69</Speed>
+		</projectile>
+	</ThingDef>
+
+
+<!-- ============================================================== -->
+	<!--8x58RKrag-->
+	<!-- Velocity:548,64m/s   -->
+	<!-- Energy:    1727   J -->
+<!-- ============================================================== -->
+				<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_8x58RKrag_R_PA</defName>
+		<label>8x58RKrag round</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>14</DamageAmountBase>
+			<Speed>68</Speed>
+		</projectile>
+	</ThingDef>
+	
+	
+	
+	
+<!-- ============================================================== -->
+	<!--.455 Webley Mk II-->
+	<!-- Velocity:180 m/s   -->
+	<!-- Energy:    287    J -->
+<!-- ============================================================== -->
+				<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_455WebleyMkII_P_PA</defName>
+		<label>455 Webley MkII round</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>10</DamageAmountBase>
+			<Speed>54</Speed>
+		</projectile>
+	</ThingDef>
+	
+	<!-- ============================================================== -->
+	<!--85mmMars-->
+	<!-- Velocity:470  m/s   -->
+	<!-- Energy:    1,000     J -->
+<!-- ============================================================== -->
+				<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_85mmMars_P_PA</defName>
+		<label>85mm Mars round</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>11</DamageAmountBase>
+			<Speed>55</Speed>
+		</projectile>
+	</ThingDef>
+	
+	
+	<!-- ============================================================== -->
+	<!--.442Webley-->
+	<!-- Velocity: 210   m/s   -->
+	<!-- Energy:  324     J -->
+<!-- ============================================================== -->
+				<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_442Webley_P_PA</defName>
+		<label>.442Webley round</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>10</DamageAmountBase>
+			<Speed>54</Speed>
+		</projectile>
+	</ThingDef>
+	</ThingDefs>
+
+
+
+	

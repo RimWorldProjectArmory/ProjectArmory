@@ -81,7 +81,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_FNSCARLMk16Standard_PA</defName>
 		<label>FN SCAR-L Mk16 Standard</label>
-		<description>The Special Operations Forces Combat Assault Rifle (SCAR) is a modular rifle made by FN Herstal for the United States Special Operations Command to satisfy the requirements of the SCAR competition.\nCaliber: 5.56x45mm NATO</description>
+		<description>The Special Operations Forces Combat Assault Rifle (SCAR) is a 20th century pattern of Assault Rifles. Developed exclusively for Special Forces, this model has a number of advantages and has an according price tag.\nCaliber: 5.56x45mm NATO</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_AR_FNSCARLMk16Standard</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -90,9 +90,9 @@ the weapons can download more of them.
 		<statBases>
 			<MarketValue>748</MarketValue>
 			<AccuracyTouch>0.99</AccuracyTouch>
-			<AccuracyShort>0.96</AccuracyShort>
-			<AccuracyMedium>0.92</AccuracyMedium>
-			<AccuracyLong>0.88</AccuracyLong>
+			<AccuracyShort>0.92</AccuracyShort>
+			<AccuracyMedium>0.88</AccuracyMedium>
+			<AccuracyLong>0.86</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

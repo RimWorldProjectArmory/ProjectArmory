@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_MP40_PA</defName>
 		<label>MP40</label>
-		<description> The MP 40 (MP designates Maschinenpistole.) were submachine guns developed in Nazi Germany and used extensively by paratroopers, platoon and squad leaders, and other troops during World War II. Both weapons were often erroneously called the Schmeisser, despite Hugo Schmeisser's non-involvement in their design and production.</description>
+		<description> The MP 40 (MP designates Maschinenpistole.) is an ancient pattern of submachine guns developed in Nazi Germany(Earth's Country back then) and used extensively by paratroopers, platoon and squad leaders, and other troops during World War II(1941-1945). </description>
 		<graphicData>
 		<texPath>Things/Item/Gun_SMG_MP40</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

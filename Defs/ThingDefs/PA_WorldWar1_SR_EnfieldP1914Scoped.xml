@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+<!--
+PROJECT ARMORY WEAPON
+
+CODE AUTHOR:   Evul	
+TEXTURE MAKER: Plymouth
+ 
+USER LICENSE:
+All weapons texture and code may be altered to the users
+liking to fit the world the user wants to create.
+You may add or remove weapons of your downloaded
+Project Armory Pack to further more customize your world.
+You are also allowed to publish Project Armory weapons
+in your own modpack or mod. The only thing we ask for
+is that you link to our forum page so people that like
+the weapons can download more of them.
+-->
+
+  <ThingDef Name="BaseGun" Abstract="True">
+    <category>Item</category>
+
+    <thingClass>ThingWithComps</thingClass>
+    <equipmentType>Primary</equipmentType>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <selectable>True</selectable>
+    <graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+	  <SellPriceFactor>0.5</SellPriceFactor>
+	</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<techLevel>Midworld</techLevel>
+		<thingCategories>
+			<li>WeaponsRangedRifles</li>
+		</thingCategories>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<comps>
+			<li>
+				<compClass>CompForbiddable</compClass>
+			</li>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li>
+				<compClass>CompArt</compClass>
+				<nameMaker>NamerGun</nameMaker>
+				<descriptionMaker>ArtWeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+		<smeltProducts>
+		  <Steel>20</Steel>
+		</smeltProducts>
+	</ThingDef>
+	
+	<ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+	</ThingDef>
+
+	<!-- ============================================================== -->
+	
+	<ThingDef ParentName="BaseHumanGun">
+		<defName>Gun_EnfieldP1914Scoped_PA</defName>
+		<label>Enfield P1914Scoped</label>
+		<description>The Rifle, .303 Pattern 1914 (or P14) is an ancient pattern British service rifle of the First World War period. A bolt action weapon with an integral 5-round magazine, it was principally contract manufactured by companies in the United States. It served as a sniper rifle and as second line and reserve issue until being declared obsolete in 1947. The P14 was the successor to the P13 Enfield and the predecessor of the U.S. Rifle M1917 Enfield.This variant comes with a scope </description>
+		<graphicData>
+		<texPath>Things/Item/Gun_R_EnfieldP1914</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractRifle</soundInteract>
+		<statBases>
+			<MarketValue>480</MarketValue>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.87</AccuracyShort>
+			<AccuracyMedium>0.84</AccuracyMedium>
+			<AccuracyLong>0.81</AccuracyLong>
+			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_303British_SR_PA</projectileDef>
+				<warmupTicks>220</warmupTicks>
+				<range>37.5</range>
+				<soundCast>ShotSurvivalRifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+</ThingDefs>

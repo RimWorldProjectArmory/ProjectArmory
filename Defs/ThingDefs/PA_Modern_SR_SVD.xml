@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_SVD_PA</defName>
 		<label>SVD</label>
-		<description>The Dragunov sniper rifle is a semi-automatic sniper/designated marksman rifle chambered in 7.62x54mmR and developed in the Soviet Union.\nCaliber: 7.62x54mmR</description>
+		<description>The Dragunov sniper rifle is a semi-automatic sniper/designated marksman ancient rifle pattern chambered in 7.62x54mmR.\nCaliber: 7.62x54mmR</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_SR_SVD</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

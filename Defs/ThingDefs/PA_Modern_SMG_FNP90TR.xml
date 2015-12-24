@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_FNP90TR_PA</defName>
 		<label>FN P90 TR</label>
-		<description>The FN P90 is a personal defense weapon (PDW) designed and manufactured by FN Herstal in Belgium.\nCaliber: FN 5.7x28mm</description>
+		<description>The FN P90 is a personal defense weapon (PDW) designed and manufactured in late 20th century.\nCaliber: FN 5.7x28mm</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_SMG_FNP90TR</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

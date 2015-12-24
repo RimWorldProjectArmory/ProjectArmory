@@ -80,7 +80,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_AR_SAvz58Tactical_PA</defName>
 		<label>SA vz.58 Tactical</label>
-		<description>The SA vz. 58 (model 58) is a 7.62mm assault rifle designed and manufactured in Czechoslovakia. With tactical convert.</description>
+		<description>The SA vz. 58 (model 58) is a 7.62mm assault rifle pattern designed and manufactured in the late 20th century. With tactical convert.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_AR_vz58Tactical</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

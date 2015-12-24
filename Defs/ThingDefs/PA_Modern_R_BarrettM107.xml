@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_BarrettM107_PA</defName>
 		<label>Barrett M107</label>
-		<description>Initially used to designate Barrett M95 bolt-action rifle. Designation changed to apply to a product improved M82A1M variant. Includes lengthened accessory rail, rear grip, and monopod socket.</description>
+		<description>Initially used to designate Barrett M95 ancient-pattern bolt-action rifle. Designation changed to apply to a product improved M82A1M variant. Includes lengthened accessory rail, rear grip, and monopod socket.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_R_BarrettM107</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

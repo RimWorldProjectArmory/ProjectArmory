@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_MAC10_PA</defName>
 		<label>MAC-10</label>
-		<description>The MAC-10 is a compact, blowback operated machine pistol developed by Gordon B. Ingram in 1964. It is chambered in either 45 ACP or 9mm. A two-stage suppressor by Sionics, was designed for the MAC-10, which not only abated the noise created, but made it easier to control on full automatic.</description>
+		<description>The MAC-10 is a compact, primitive blowback operated machine pistol developed by Gordon B. Ingram in mid-20th century. It is chambered in either 45 ACP or 9mm. A two-stage suppressor was designed for the MAC-10, which not only abated the noise created, but made it easier to control on full automatic.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_SMG_MAC10</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -89,8 +89,8 @@ the weapons can download more of them.
 			<MarketValue>292</MarketValue>
 			<AccuracyTouch>0.89</AccuracyTouch>
 			<AccuracyShort>0.69</AccuracyShort>
-			<AccuracyMedium>0.47</AccuracyMedium>
-			<AccuracyLong>0.29</AccuracyLong>
+			<AccuracyMedium>0.51</AccuracyMedium>
+			<AccuracyLong>0.43</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

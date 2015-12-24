@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_BarrettM82A1_PA</defName>
 		<label>Barrett M82A1</label>
-		<description>The M82, standardized by the US Military as the M107, is a recoil-operated, semi-automatic anti-materiel rifle developed by the American Barrett Firearms Manufacturing company.</description>
+		<description>The M82 is an ancient recoil-operated, semi-automatic anti-materiel rifle developed in 20th century.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_SR_BarrettM82A1</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

@@ -80,7 +80,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_ASVal_PA</defName>
 		<label>AS Val</label>
-		<description>The AS Val is a Soviet designed assault rifle featuring an integrated suppressor.\nCaliber: 9x39mm</description>
+		<description>The AS Val"Special Automatic Rifle" is an ancient pre-colonisation assault rifle with a built-in surpressor. In modern time it is popular with brigands and ambush parties on Rimworlds. \nCaliber: 9x39mm</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_AR_ASVal</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -103,9 +103,9 @@ the weapons can download more of them.
 				<range>21.7</range>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-				<soundCast>ShotAssaultRifle</soundCast>
-				<soundCastTail>GunTail_Medium</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
+				<soundCast>ShotPistol</soundCast>
+				<soundCastTail>GunTail_Short</soundCastTail>
+				<muzzleFlashScale>1</muzzleFlashScale>
 			</li>
 		</verbs>
 

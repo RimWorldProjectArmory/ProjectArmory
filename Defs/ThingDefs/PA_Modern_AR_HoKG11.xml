@@ -82,16 +82,16 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_HoKG11_PA</defName>
 		<label>H&amp;K G11</label>
-		<description>The Heckler &amp; Koch G11 is a non-production prototype assault rifle developed during the late 1960s, 1970s and 1980s by Gesellschaft für Hülsenlose Gewehrsysteme (GSHG).\nCaliber: 4.73x25mm caseless</description>
+		<description>The Heckler &amp; Koch G11 is a non-production prototype assault rifle developed during the later 20th century. Blueprints for this rifle is rare to come by, and manufacturing process is costly as well as the process of creating the caseless ammunition. During the modern age it is used primarily by special forces and mercenary groups, who can allow it, mostly employed in clean-ups and assaults with an effect of leaving as little trace of their presence as possible afterwards. Thanks to the costs and rarity, this weapon, as well as it's ammunition is rarely recognized. \nCaliber: 4.73x25mm caseless</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_AR_HoKG11</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractRifle</soundInteract>
 		<statBases>
-			<MarketValue>802</MarketValue>
-			<AccuracyTouch>0.66</AccuracyTouch>
-			<AccuracyShort>0.67</AccuracyShort>
+			<MarketValue>901</MarketValue>
+			<AccuracyTouch>0.77</AccuracyTouch>
+			<AccuracyShort>0.79</AccuracyShort>
 			<AccuracyMedium>0.87</AccuracyMedium>
 			<AccuracyLong>0.74</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>

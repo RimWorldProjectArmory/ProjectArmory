@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+<!--
+PROJECT ARMORY WEAPON
+
+CODE AUTHOR: Evul
+TEXTURE MAKER: Plymouth
+
+USER LICENSE:
+All weapons texture and code may be altered to the users
+liking to fit the world the user wants to create.
+You may add or remove weapons of your downloaded
+Project Armory Pack to further more customize your world.
+You are also allowed to publish Project Armory weapons
+in your own modpack or mod. The only thing we ask for
+is that you link to our forum page so people that like
+the weapons can download more of them.
+-->
+
+	<ThingDef Name="BaseGun" Abstract="True">
+		<category>Item</category>
+
+		<thingClass>ThingWithComps</thingClass>
+		<equipmentType>Primary</equipmentType>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<selectable>True</selectable>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<SellPriceFactor>0.5</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<techLevel>Midworld</techLevel>
+		<thingCategories>
+			<li>WeaponsRangedPistols</li>
+		</thingCategories>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<comps>
+			<li>
+				<compClass>CompForbiddable</compClass>
+			</li>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li>
+				<compClass>CompArt</compClass>
+				<nameMaker>NamerGun</nameMaker>
+				<descriptionMaker>ArtWeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+		<smeltProducts>
+		  <Steel>20</Steel>
+		</smeltProducts>
+	</ThingDef>
+	
+	<ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+	</ThingDef>
+
+	<!-- ============================================================== -->
+
+	<ThingDef ParentName="BaseHumanGun">
+		<defName>Gun_NagantRevolverM1895_PA</defName>
+		<label>Nagant M1895</label>
+		<description>The Nagant M1895 Revolver is a seven-shot, gas-seal ancient pattern of a revolver designed and produced by Belgian industrialist Léon Nagant for the Russian Empire. The Nagant M1895 was chambered for a proprietary cartridge, 7.62×38mmR, and featured an unusual "gas-seal" system, in which the cylinder moved forward when the gun was cocked, to close the gap between the cylinder and the barrel, providing a boost to the muzzle velocity of the fired projectile and allowing the weapon to be suppressed (an unusual ability for a revolver).</description>
+		<graphicData>
+		<texPath>Things/Item/Gun_P_NagantRevolverM1895</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPistol</soundInteract>
+		<statBases>
+			<MarketValue>210</MarketValue>
+			<AccuracyTouch>0.92</AccuracyTouch>
+			<AccuracyShort>0.86</AccuracyShort>
+			<AccuracyMedium>0.71</AccuracyMedium>
+			<AccuracyLong>0.59</AccuracyLong>
+			<RangedWeapon_Cooldown>0.64</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_762x38mmR_P_PA</projectileDef>
+				<warmupTicks>54</warmupTicks>
+				<range>22.6</range>
+				<soundCast>ShotPistol</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+
+	</ThingDef>
+</ThingDefs>

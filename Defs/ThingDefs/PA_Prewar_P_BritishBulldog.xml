@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_BritishBulldog_PA</defName>
 		<label>British Bulldog</label>
-		<description>Webley's British Bulldog Revolver is a pocket gun with considerable firepower. A Belgian made .44 calibre British Bulldog was used to assassinate US president James Garfield in 1881.</description>
+		<description>Webley's British Bulldog Revolver is an ancient pattern pocket gun with considerable firepower. A Belgian made .44 calibre British Bulldog was used to assassinate US president James Garfield in 1881.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_P_BritishBulldog</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -89,8 +89,8 @@ the weapons can download more of them.
 			<MarketValue>133</MarketValue>
 			<AccuracyTouch>0.90</AccuracyTouch>
 			<AccuracyShort>0.72</AccuracyShort>
-			<AccuracyMedium>0.48</AccuracyMedium>
-			<AccuracyLong>0.34</AccuracyLong>
+			<AccuracyMedium>0.64</AccuracyMedium>
+			<AccuracyLong>0.58</AccuracyLong>
 			<RangedWeapon_Cooldown>0.64</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

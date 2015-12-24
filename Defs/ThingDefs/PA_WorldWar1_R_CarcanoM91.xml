@@ -88,9 +88,9 @@ the weapons can download more of them.
 		<statBases>
 			<MarketValue>344</MarketValue>
 			<AccuracyTouch>0.96</AccuracyTouch>
-			<AccuracyShort>0.96</AccuracyShort>
-			<AccuracyMedium>0.88</AccuracyMedium>
-			<AccuracyLong>0.84</AccuracyLong>
+			<AccuracyShort>0.86</AccuracyShort>
+			<AccuracyMedium>0.83</AccuracyMedium>
+			<AccuracyLong>0.78</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
@@ -99,7 +99,7 @@ the weapons can download more of them.
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_792x57mmMauser_R_PA</projectileDef>
 				<warmupTicks>130</warmupTicks>
-				<range>35.9</range>
+				<range>33.3</range>
 				<soundCast>ShotSurvivalRifle</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>

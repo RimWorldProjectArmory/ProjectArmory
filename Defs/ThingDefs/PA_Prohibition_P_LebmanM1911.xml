@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_LebmanM1911_PA</defName>
 		<label>Lebman M1911</label>
-		<description>This .38 Super Automatic M1911 has been heavily modified by Hyman Lebman. It's been converted to fire in full auto, and has had a commentator, Thompson sub-machine gun forward grip and extended magazines added. One very much like this was used by the Dillinger Gang during prohibition.</description>
+		<description>This .38 Super Automatic M1911 ancient pattern has been heavily modified by a person call Hyman Lebman. Difference from the original is mainly full-auto mode.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_P_LebmanM1911</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -87,10 +87,10 @@ the weapons can download more of them.
 		<soundInteract>InteractPistol</soundInteract>
 		<statBases>
 			<MarketValue>228</MarketValue>
-			<AccuracyTouch>0.89</AccuracyTouch>
-			<AccuracyShort>0.64</AccuracyShort>
-			<AccuracyMedium>0.41</AccuracyMedium>
-			<AccuracyLong>0.22</AccuracyLong>
+			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyShort>0.84</AccuracyShort>
+			<AccuracyMedium>0.71</AccuracyMedium>
+			<AccuracyLong>0.62</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

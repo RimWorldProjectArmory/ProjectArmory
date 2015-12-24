@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_SoW_Model29_PA</defName>
 		<label>S&amp;W Model 29</label>
-		<description> The Smith &amp; Wesson Model 29 is a double action 6 shot revolver chambered for .44 Magnum. When it was introduced it was the most powerful production handgun in the world. Unfortunately that means it has a lot of recoil so accuracy is a problem. As such, you've gotta ask yourself a question: "Do I feel lucky?" Well, do ya, punk?</description>
+		<description> The Smith &amp; Wesson Model 29 is a primitive double action 6 shot revolver chambered for .44 Magnum. When it was introduced back in early 20th century, it was the most powerful production handgun in the world. Unfortunately that means it has a lot of recoil so accuracy is a problem. As such, you've gotta ask yourself a question: "Do I feel lucky?" Well, do ya, punk?</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_P_SoWModel29</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -87,10 +87,10 @@ the weapons can download more of them.
 		<soundInteract>InteractPistol</soundInteract>
 		<statBases>
 			<MarketValue>175</MarketValue>
-			<AccuracyTouch>0.89</AccuracyTouch>
-			<AccuracyShort>0.67</AccuracyShort>
-			<AccuracyMedium>0.46</AccuracyMedium>
-			<AccuracyLong>0.32</AccuracyLong>
+			<AccuracyTouch>0.92</AccuracyTouch>
+			<AccuracyShort>0.86</AccuracyShort>
+			<AccuracyMedium>0.78</AccuracyMedium>
+			<AccuracyLong>0.71</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

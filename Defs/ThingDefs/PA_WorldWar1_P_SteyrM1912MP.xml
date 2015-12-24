@@ -87,10 +87,10 @@ the weapons can download more of them.
 		<soundInteract>InteractPistol</soundInteract>
 		<statBases>
 			<MarketValue>233</MarketValue>
-			<AccuracyTouch>0.89</AccuracyTouch>
-			<AccuracyShort>0.64</AccuracyShort>
-			<AccuracyMedium>0.41</AccuracyMedium>
-			<AccuracyLong>0.22</AccuracyLong>
+			<AccuracyTouch>0.94</AccuracyTouch>
+			<AccuracyShort>0.86</AccuracyShort>
+			<AccuracyMedium>0.72</AccuracyMedium>
+			<AccuracyLong>0.61</AccuracyLong>
 			<RangedWeapon_Cooldown>0.64</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
@@ -98,8 +98,8 @@ the weapons can download more of them.
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_9x19mmParabellum_P_PA</projectileDef>
-				<warmupTicks>68</warmupTicks>
-				<range>25.4</range>
+				<warmupTicks>23</warmupTicks>
+				<range>23.1</range>
 				<soundCast>ShotPistol</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>

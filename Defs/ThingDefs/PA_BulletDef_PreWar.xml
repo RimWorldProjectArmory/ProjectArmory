@@ -26,7 +26,9 @@ the weapons can download more of them.
 			<label>bullet</label>
 			<useHitPoints>False</useHitPoints>
 			<neverMultiSelect>True</neverMultiSelect>
-			<shaderType>Transparent</shaderType>
+			
+      <shaderType>Transparent</shaderType>
+    
 	</ThingDef>
 	
 <!--
@@ -178,4 +180,24 @@ BULLETS:
 			<Speed>55</Speed>
 		</projectile>
 	</ThingDef>
+	
+	<!-- ============================================================== -->
+	<!--  7,5x55mm Swiss -->
+	<!-- Velocity:   860 m/s -->
+	<!-- Energy:    3,604 J -->
+	<!-- ============================================================== -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_75x55mmSP_PA</defName>
+		<label>7,5x55mm SP</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Big</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>18</DamageAmountBase>
+			<Speed>58</Speed>
+		</projectile>
+	</ThingDef>
 </ThingDefs>
+

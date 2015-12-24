@@ -78,7 +78,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_M79_S_PA</defName>
 		<label>M-79 Shortened</label>
-		<description> The M79 grenade launcher is a single-shot, shoulder-fired, break-action grenade launcher that fires a 40x46mm grenade which uses what the US Army calls the High-Low Propulsion System to keep recoil forces low, and first appeared during the Vietnam War. This one features sawed-off stock and barrel, as well as absent flip-up sight.</description>
+		<description>The M79 grenade launcher is a primitive, single-shot, shoulder-fired, break-action grenade launcher that was developed in mid-20th century. It fires a 40x46mm grenade which uses the High-Low Propulsion System to keep recoil forces low. This one features sawed-off stock and barrel, as well as absent flip-up sight.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_L_M79_Shortened</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

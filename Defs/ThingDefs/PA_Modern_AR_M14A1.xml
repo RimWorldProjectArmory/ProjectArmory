@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_M14A1_PA</defName>
 		<label>M14A1</label>
-		<description>M14A1 rifle First designated as M14E2 when it was issued in 1963 and redesignated as M14A1 in 1966. The rifle is a selective fire automatic rifle that fires 7.62x51mm NATOammunition. It gradually replaced the M1 Garand in U.S. Army service by 1961 and in U.S. Marine Corps service by 1965.\nCaliber: 7.62x51mm NATO </description>
+		<description>M14A1 rifle is a successfull Battle Rifle based off M14 pattern, which was developed back in the mid-20th century. The rifle is a selective fire automatic rifle.\nCaliber: 7.62x51mm NATO </description>
 		<graphicData>
 		<texPath>Things/Item/Gun_AR_M14A1</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -89,8 +89,8 @@ the weapons can download more of them.
 			<MarketValue>434</MarketValue>
 			<AccuracyTouch>0.68</AccuracyTouch>
 			<AccuracyShort>0.73</AccuracyShort>
-			<AccuracyMedium>0.80</AccuracyMedium>
-			<AccuracyLong>0.70</AccuracyLong>
+			<AccuracyMedium>0.88</AccuracyMedium>
+			<AccuracyLong>0.92</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

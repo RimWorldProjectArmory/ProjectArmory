@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_Saiga12K030_PA</defName>
 		<label>Saiga-12K-030</label>
-		<description>The Saiga-12K-030 is a rotating bolt gas operated fully automatic shotgun.</description>
+		<description>The Saiga-12K-030 is a rotating bolt gas operated fully automatic shotgun developed in 20th century.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_S_Saiga12K030</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -87,10 +87,10 @@ the weapons can download more of them.
 		<soundInteract>InteractRifle</soundInteract>
 		<statBases>
 			<MarketValue>450</MarketValue>
-			<AccuracyTouch>0.55</AccuracyTouch>
-			<AccuracyShort>0.38</AccuracyShort>
-			<AccuracyMedium>0.22</AccuracyMedium>
-			<AccuracyLong>0.09</AccuracyLong>
+			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyShort>0.87</AccuracyShort>
+			<AccuracyMedium>0.71</AccuracyMedium>
+			<AccuracyLong>0.62</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
@@ -99,7 +99,7 @@ the weapons can download more of them.
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_12gauge_S_PA</projectileDef>
 				<warmupTicks>160</warmupTicks>
-				<range>12.5</range>
+				<range>20.5</range>
 				<burstShotCount>4</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<soundCast>ShotShotgun</soundCast>

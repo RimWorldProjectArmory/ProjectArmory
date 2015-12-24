@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+<!--
+PROJECT ARMORY WEAPON
+
+CODE AUTHOR: Evul
+TEXTURE MAKER: Evul & Plymouth
+
+
+USER LICENSE:
+All weapons texture and code may be altered to the users
+liking to fit the world the user wants to create.
+You may add or remove weapons of your downloaded
+Project Armory Pack to further more customize your world.
+You are also allowed to publish Project Armory weapons
+in your own modpack or mod. The only thing we ask for
+is that you link to our forum page so people that like
+the weapons can download more of them.
+-->
+
+	<ThingDef Name="BaseGun" Abstract="True">
+		<category>Item</category>
+
+		<thingClass>ThingWithComps</thingClass>
+		<equipmentType>Primary</equipmentType>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<selectable>True</selectable>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+			<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<SellPriceFactor>0.5</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<techLevel>Spacer</techLevel>
+		<thingCategories>
+			<li>WeaponsRangedAssaultRifles</li>
+		</thingCategories>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<comps>
+			<li>
+				<compClass>CompForbiddable</compClass>
+			</li>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li>
+				<compClass>CompArt</compClass>
+				<nameMaker>NamerGun</nameMaker>
+				<descriptionMaker>ArtWeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+		<smeltProducts>
+		  <Plasteel>10</Plasteel>
+		</smeltProducts>
+	</ThingDef>
+	
+	<ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
+		<weaponTags>
+			<li>Gun</li>
+			<li>AdvancedGun</li>
+		</weaponTags>
+	</ThingDef>
+
+	<!-- ============================================================== -->
+	<!-- [ME2 Fire Rate 850rpm] [Barrel length 360] [Thermal Clip] -->
+	<!-- ============================================================== -->
+
+	<ThingDef ParentName="BaseHumanGun">
+		<defName>Gun_N7Typhoon_PA</defName>
+		<label>N7 Typhoon</label>
+		<description> The Typhoon is a distinctive light machine gun featuring a face shield to protect the shooter from headshots. Its power and recoil are so notorious that it includes a high-tech kinetic reducer to fight muzzle climb. Since the reducer tries to limit all motion by the weapon, marksmen do not engage it while moving and instead reduce the recoil only while they are in cover.</description>
+		<graphicData>
+		<texPath>Things/Item/MassEffect/Gun_AR_M-99Saber</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractChargeRifle</soundInteract>
+		<statBases>
+			<MarketValue>1650</MarketValue>
+			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyShort>0.83</AccuracyShort>
+			<AccuracyMedium>0.78</AccuracyMedium>
+			<AccuracyLong>0.65</AccuracyLong>
+			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_N7Typhoon_LMG_PA</projectileDef>
+				<warmupTicks>150</warmupTicks>
+				<range>42</range>
+				<burstShotCount>8</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>ShotChargeRifle</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+
+	</ThingDef>
+</ThingDefs>

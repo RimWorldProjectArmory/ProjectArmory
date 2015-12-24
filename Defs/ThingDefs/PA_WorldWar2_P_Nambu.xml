@@ -87,10 +87,10 @@ the weapons can download more of them.
 		<soundInteract>InteractPistol</soundInteract>
 		<statBases>
 			<MarketValue>188</MarketValue>
-			<AccuracyTouch>0.80</AccuracyTouch>
-			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyTouch>0.97</AccuracyTouch>
+			<AccuracyShort>0.78</AccuracyShort>
 			<AccuracyMedium>0.57</AccuracyMedium>
-			<AccuracyLong>0.31</AccuracyLong>
+			<AccuracyLong>0.41</AccuracyLong>
 			<RangedWeapon_Cooldown>0.63</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

@@ -78,7 +78,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_FranchiSPAS12_PA</defName>
 		<label>Franchi SPAS-12</label>
-		<description>The Franchi SPAS12 is a combat shotgun manufactured by Italian firearms company Franchi from 1979 to 2000. Only five percent (about 1,850) of the estimated SPAS12 shotguns manufactured were imported into the United States.\nCaliber: 12 gauge</description>
+		<description>The Franchi SPAS12 is an ancient combat shotgun developed and manufactured in late 20th century. \nCaliber: 12 gauge</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_S_FranchiSPAS12</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -88,8 +88,8 @@ the weapons can download more of them.
 			<MarketValue>485</MarketValue>
 			<AccuracyTouch>0.93</AccuracyTouch>
 			<AccuracyShort>0.77</AccuracyShort>
-			<AccuracyMedium>0.59</AccuracyMedium>
-			<AccuracyLong>0.42</AccuracyLong>
+			<AccuracyMedium>0.73</AccuracyMedium>
+			<AccuracyLong>0.62</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
@@ -98,7 +98,7 @@ the weapons can download more of them.
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_12gauge_S_PA</projectileDef>
 				<warmupTicks>100</warmupTicks>
-				<range>13.3</range>
+				<range>18.3</range>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<burstShotCount>3</burstShotCount>
 				<soundCast>ShotShotgun</soundCast>

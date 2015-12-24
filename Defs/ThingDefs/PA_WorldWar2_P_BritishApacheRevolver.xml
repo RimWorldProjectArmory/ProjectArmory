@@ -88,15 +88,15 @@ the weapons can download more of them.
 		<soundInteract>InteractPistol</soundInteract>
 		<statBases>
 			<!-- Meele stuff -->
-			<MeleeWeapon_DamageAmount>50</MeleeWeapon_DamageAmount>
-			<MeleeWeapon_SharpDamageMultiplier>50</MeleeWeapon_SharpDamageMultiplier>
-			<MeleeWeapon_BluntDamageMultiplier>50</MeleeWeapon_BluntDamageMultiplier>
+			<MeleeWeapon_DamageAmount>13</MeleeWeapon_DamageAmount>
+			<MeleeWeapon_SharpDamageMultiplier>10</MeleeWeapon_SharpDamageMultiplier>
+			<MeleeWeapon_BluntDamageMultiplier>13</MeleeWeapon_BluntDamageMultiplier>
 			<!-- ////////////-->
 			<MarketValue>99</MarketValue>
 			<AccuracyTouch>0.98</AccuracyTouch>
-			<AccuracyShort>0.36</AccuracyShort>
-			<AccuracyMedium>0.15</AccuracyMedium>
-			<AccuracyLong>0.05</AccuracyLong>
+			<AccuracyShort>0.78</AccuracyShort>
+			<AccuracyMedium>0.63</AccuracyMedium>
+			<AccuracyLong>0.43</AccuracyLong>
 			<RangedWeapon_Cooldown>0.30</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

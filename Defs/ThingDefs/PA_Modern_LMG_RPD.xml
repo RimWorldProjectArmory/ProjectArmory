@@ -78,7 +78,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_RPD_wea</defName>
 		<label>RPD</label>
-		<description> The RPD is a 7.62mm light machine gun developed in the Soviet Union by Vasily Degtyaryov for the intermediate 7.62x39mm M43 cartridge.</description>
+		<description> (Degtyaryov hand-held machine gun) is a 7.62mm light machine gun pattern developed back in the 20th century. /n caliber: 7.62×39mm .</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_LMG_RPD</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -86,12 +86,15 @@ the weapons can download more of them.
 		<soundInteract>InteractRifle</soundInteract>
 		<statBases>
 			<MarketValue>780</MarketValue>
-			<AccuracyTouch>0.83</AccuracyTouch>
-			<AccuracyShort>0.91</AccuracyShort>
-			<AccuracyMedium>0.87</AccuracyMedium>
-			<AccuracyLong>0.80</AccuracyLong>
+			<AccuracyTouch>0.96</AccuracyTouch>
+			<AccuracyShort>0.86</AccuracyShort>
+			<AccuracyMedium>0.81</AccuracyMedium>
+			<AccuracyLong>0.75</AccuracyLong>
 			<RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
 		</statBases>
+		<equippedStatOffsets>
+		  <MoveSpeed>-0.10</MoveSpeed>
+		</equippedStatOffsets>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>

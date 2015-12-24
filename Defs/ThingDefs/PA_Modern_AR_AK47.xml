@@ -79,18 +79,18 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_AK47_PA</defName>
 		<label>AK-47</label>
-		<description>The AK-47 is a selective-fire, gas-operated assault rifle, first developed in the Soviet Union by Mikhail Kalashnikov.\nCaliber: 7.62x39mm</description>
+		<description>The Kalashnikov-pattern projectile-based assault rifles were extremely popular before the age of colonization. The 47 model was the first complete production model, dating back to the year of 1947, as stated in the name. It is to this day popular with all the colonies which are in need of cheap but reliable firearms, AK-47 model has mostly a wooden stock and foregrip construction, as well as sporting a 7.62x30mm cartrige caliber, which, as an advantage, increases firepower at an expense of recoil and accuracy. It is quite popular amongst the brigands and ne'er do wells of modern day, for it's cheap manufacture costs. \nCaliber: 7.62x39mm</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_AR_AK47</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractRifle</soundInteract>
 		<statBases>
-			<MarketValue>230</MarketValue>
-			<AccuracyTouch>0.86</AccuracyTouch>
-			<AccuracyShort>0.92</AccuracyShort>
-			<AccuracyMedium>0.85</AccuracyMedium>
-			<AccuracyLong>0.72</AccuracyLong>
+			<MarketValue>210</MarketValue>
+			<AccuracyTouch>0.76</AccuracyTouch>
+			<AccuracyShort>0.84</AccuracyShort>
+			<AccuracyMedium>0.73</AccuracyMedium>
+			<AccuracyLong>0.71</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

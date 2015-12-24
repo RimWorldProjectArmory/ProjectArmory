@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+<!--
+PROJECT ARMORY WEAPON
+
+CODE AUTHOR:   Evul	
+TEXTURE MAKER: Plymouth
+ 
+USER LICENSE:
+All weapons texture and code may be altered to the users
+liking to fit the world the user wants to create.
+You may add or remove weapons of your downloaded
+Project Armory Pack to further more customize your world.
+You are also allowed to publish Project Armory weapons
+in your own modpack or mod. The only thing we ask for
+is that you link to our forum page so people that like
+the weapons can download more of them.
+-->
+
+  <ThingDef Name="BaseGun" Abstract="True">
+    <category>Item</category>
+
+    <thingClass>ThingWithComps</thingClass>
+    <equipmentType>Primary</equipmentType>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <selectable>True</selectable>
+    <graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+	  <SellPriceFactor>0.5</SellPriceFactor>
+	</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<techLevel>Midworld</techLevel>
+		<thingCategories>
+			<li>WeaponsRangedRifles</li>
+		</thingCategories>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<comps>
+			<li>
+				<compClass>CompForbiddable</compClass>
+			</li>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li>
+				<compClass>CompArt</compClass>
+				<nameMaker>NamerGun</nameMaker>
+				<descriptionMaker>ArtWeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+		<smeltProducts>
+		  <Steel>20</Steel>
+		</smeltProducts>
+	</ThingDef>
+	
+	<ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+	</ThingDef>
+
+	<!-- ============================================================== -->
+	
+	<ThingDef ParentName="BaseHumanGun">
+		<defName>Gun_GewehrM1943_PA</defName>
+		<label>Gewehr 43</label>
+		<description>The Gewehr 43 or Karabiner 43 (abbreviated G43, K43, Gew 43, Kar 43) is a 7.92×57mm Mauser caliber ancient pattern of a semi-automatic rifle developed by Nazi Germany during World War II(1939-1945 during Earth's timeline). It was a modification of the earlier G41(W), using an improved gas system similar to that of the Soviet Tokarev SVT-40.</description>
+		<graphicData>
+		<texPath>Things/Item/Gun_R_Gewehr43</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractRifle</soundInteract>
+		<statBases>
+			<MarketValue>380</MarketValue>
+			<AccuracyTouch>0.92</AccuracyTouch>
+			<AccuracyShort>0.84</AccuracyShort>
+			<AccuracyMedium>0.81</AccuracyMedium>
+			<AccuracyLong>0.78</AccuracyLong>
+			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_792x57mm_R_PA</projectileDef>
+				<warmupTicks>75</warmupTicks>
+				<range>28.7</range>
+				<soundCast>ShotSurvivalRifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+</ThingDefs>

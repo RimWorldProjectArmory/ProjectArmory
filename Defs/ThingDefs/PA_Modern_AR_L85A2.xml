@@ -80,7 +80,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_L85A2_PA</defName>
 		<label>L85A2</label>
-		<description>The L85 rifle variant of the SA80 family has been the standard issue service rifle of the British Armed Forces since 1987, replacing the L1A1 variant of the FN FAL.\nCaliber: 5.56x45mm NATO</description>
+		<description>The L85A2 is a part of SA80 pattern of ancient late-20th century firearms. A2 modificaiton comes with a rail. It is known for it's accuracy, reliable bullpup design and magazines which have less ammo than usually desired for surpressive roles.\nCaliber: 5.56x45mm NATO</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_AR_L85A2</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

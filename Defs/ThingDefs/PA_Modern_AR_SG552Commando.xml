@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_SG552Commando_PA</defName>
 		<label>SG 552 Commando</label>
-		<description>The compact SG 552 Commando carbine was released in July 1998. It has a shorter 226 mm barrel and gas tube, ventilated handguards and a redesigned bolt carrier group that was integrated with the piston rod to form a single moving assembly.\nCaliber: 5.56x45mm NATO</description>
+		<description>The compact SG 552 Commando carbine was released in the end of 20th century. It has a short 226 mm barrel and gas tube, ventilated handguards and a redesigned bolt carrier group that was integrated with the piston rod to form a single moving assembly.\nCaliber: 5.56x45mm NATO</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_AR_SG552Commando</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -87,10 +87,10 @@ the weapons can download more of them.
 		<soundInteract>InteractRifle</soundInteract>
 		<statBases>
 			<MarketValue>598</MarketValue>
-			<AccuracyTouch>0.99</AccuracyTouch>
-			<AccuracyShort>0.96</AccuracyShort>
-			<AccuracyMedium>0.89</AccuracyMedium>
-			<AccuracyLong>0.82</AccuracyLong>
+			<AccuracyTouch>0.89</AccuracyTouch>
+			<AccuracyShort>0.86</AccuracyShort>
+			<AccuracyMedium>0.79</AccuracyMedium>
+			<AccuracyLong>0.74</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

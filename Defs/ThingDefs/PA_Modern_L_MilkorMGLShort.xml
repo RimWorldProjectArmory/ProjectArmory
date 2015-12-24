@@ -78,7 +78,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_MilkorMGLShort_PA</defName>
 		<label>Milkor MGL Short</label>
-		<description>The MGL (Multiple Grenade Launcher) is a lightweight 40 mm six-shot revolver-type grenade launcher</description>
+		<description>The MGL (Multiple Grenade Launcher) is a lightweight 40 mm six-shot revolver-type grenade launcher, developed in late 20th century. </description>
 		<graphicData>
 		<texPath>Things/Item/Gun_L_MilkorMGLShort</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

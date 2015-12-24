@@ -78,7 +78,7 @@ the weapons can download more of them.
 	
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_SteyrMannlicherM95Rifle_PA</defName>
-		<label>Steyr Mannlicher M95 Rifle</label>
+		<label>Steyr Mannlicher M1895 Rifle</label>
 		<description>The Steyr Mannlicher M1895 is a straight pull rifle. It was used by the Austrian-Hungarian empire in the first world war, where it earned the nickname "Ruck-Zuck" meaning "Very Quick" because of it's high rate of fire.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_R_SteyrMannlicherM95Rifle</texPath>
@@ -99,7 +99,7 @@ the weapons can download more of them.
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_8x50mmRMannlicher_R_PA</projectileDef>
 				<warmupTicks>130</warmupTicks>
-				<range>25.4</range>
+				<range>32.7</range>
 				<soundCast>ShotSurvivalRifle</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>

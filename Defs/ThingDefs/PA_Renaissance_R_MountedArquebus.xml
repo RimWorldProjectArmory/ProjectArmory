@@ -92,7 +92,7 @@ the weapons can download more of them.
 			<AccuracyTouch>0.83</AccuracyTouch>
 			<AccuracyShort>0.71</AccuracyShort>
 			<AccuracyMedium>0.56</AccuracyMedium>
-			<AccuracyLong>0.32</AccuracyLong>
+			<AccuracyLong>0.42</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

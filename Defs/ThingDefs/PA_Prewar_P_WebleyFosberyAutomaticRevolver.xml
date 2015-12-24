@@ -90,9 +90,9 @@ the weapons can download more of them.
 		<statBases>
 			<MarketValue>131</MarketValue>
 			<AccuracyTouch>0.94</AccuracyTouch>
-			<AccuracyShort>0.80</AccuracyShort>
-			<AccuracyMedium>0.64</AccuracyMedium>
-			<AccuracyLong>0.41</AccuracyLong>
+			<AccuracyShort>0.83</AccuracyShort>
+			<AccuracyMedium>0.74</AccuracyMedium>
+			<AccuracyLong>0.63</AccuracyLong>
 			<RangedWeapon_Cooldown>0.64</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

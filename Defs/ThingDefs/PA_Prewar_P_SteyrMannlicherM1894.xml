@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_SteyrMannlicherM1894_PA</defName>
 		<label>Steyr Mannlicher M1894</label>
-		<description>The earliest Steyr Mannlicher pistol, manufactured by FAB.D'ARMES Neuhausen, Switzerland, was designed to be self-loading and to use a special rimmed cartridge in 6.5 mm caliber.</description>
+		<description>Ancient pattern pistol, was designed to be self-loading and to use a special rimmed cartridge in 6.5 mm caliber.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_P_SteyrMannlicherM1894</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -88,9 +88,9 @@ the weapons can download more of them.
 		<statBases>
 			<MarketValue>169</MarketValue>
 			<AccuracyTouch>0.90</AccuracyTouch>
-			<AccuracyShort>0.68</AccuracyShort>
-			<AccuracyMedium>0.46</AccuracyMedium>
-			<AccuracyLong>0.30</AccuracyLong>
+			<AccuracyShort>0.85</AccuracyShort>
+			<AccuracyMedium>0.70</AccuracyMedium>
+			<AccuracyLong>0.62</AccuracyLong>
 			<RangedWeapon_Cooldown>0.64</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

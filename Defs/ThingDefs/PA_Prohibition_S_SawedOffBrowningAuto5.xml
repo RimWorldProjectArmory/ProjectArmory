@@ -81,7 +81,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_BrowningSawedOffAuto5_PA</defName>
 		<label>Sawed-Off Auto5</label>
-		<description> The Browning Auto-5 is a recoil operated semi-automatic shotgun. This one is sawed-off, like the ones used by the Dillinger Gang during prohibition.</description>
+		<description> The Browning Auto-5 is a recoil operated semi-automatic shotgun. </description>
 		<graphicData>
 		<texPath>Things/Item/Gun_S_SawedOffBrowningAuto5</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -89,10 +89,10 @@ the weapons can download more of them.
 		<soundInteract>InteractRifle</soundInteract>
 		<statBases>
 			<MarketValue>125</MarketValue>
-			<AccuracyTouch>0.87</AccuracyTouch>
-			<AccuracyShort>0.73</AccuracyShort>
-			<AccuracyMedium>0.36</AccuracyMedium>
-			<AccuracyLong>0.21</AccuracyLong>
+			<AccuracyTouch>0.96</AccuracyTouch>
+			<AccuracyShort>0.78</AccuracyShort>
+			<AccuracyMedium>0.64</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

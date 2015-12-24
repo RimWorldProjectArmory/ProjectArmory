@@ -88,18 +88,18 @@ the weapons can download more of them.
 		<statBases>
 			<MarketValue>185</MarketValue>
 			<AccuracyTouch>0.90</AccuracyTouch>
-			<AccuracyShort>0.70</AccuracyShort>
-			<AccuracyMedium>0.52</AccuracyMedium>
-			<AccuracyLong>0.38</AccuracyLong>
+			<AccuracyShort>0.82</AccuracyShort>
+			<AccuracyMedium>0.73</AccuracyMedium>
+			<AccuracyLong>0.61</AccuracyLong>
 			<RangedWeapon_Cooldown>0.64</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_765x17mmBrowningSR_P_PA</projectileDef>
+				<projectileDef>Bullet_32ACP_P_PA</projectileDef>
 				<warmupTicks>68</warmupTicks>
-				<range>24.6</range>
+				<range>23.1</range>
 				<soundCast>ShotPistol</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>

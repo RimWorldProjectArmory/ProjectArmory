@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_M25_PA</defName>
 		<label>M25</label>
-		<description>The M25 Sniper Weapon System is a gas operated semi-automatic sniper rifle based on the M14 rifle. It is favoured for it's accuracy, reliability and it's ability for a quick second shot.\nCaliber: 7.62x51mm NATO</description>
+		<description>The M25 Ancient Pattern Sniper Weapon System is a gas operated semi-automatic sniper rifle based on the M14 pattern rifle. It is favoured for it's accuracy, reliability and it's ability for a quick second shot.\nCaliber: 7.62x51mm NATO</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_SR_M25</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

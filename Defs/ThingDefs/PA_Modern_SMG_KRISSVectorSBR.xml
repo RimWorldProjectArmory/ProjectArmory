@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_KRISSVectorSBR_PA</defName>
 		<label>KRISS Vector SBR</label>
-		<description>The KRISS Vector series is a family of weapons based upon the parent submachine gun design developed by KRISS USA. They use an unconventional delayed blowback system combined with in-line to reduce perceived recoil and muzzle climb.</description>
+		<description>The KRISS Vector series is a family of ancient pattern weapons based upon the parent submachine gun design developed by KRISS USA. They use an unconventional delayed blowback system combined with in-line to reduce perceived recoil and muzzle climb.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_SMG_KRISSVectorSBR</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

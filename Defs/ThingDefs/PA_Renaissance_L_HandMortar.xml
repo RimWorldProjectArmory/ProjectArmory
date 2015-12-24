@@ -95,7 +95,7 @@ the weapons can download more of them.
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
-			  <explosionRadius >1.1</explosionRadius >
+			  <explosionRadius >1.2</explosionRadius >
 			  <damageDef>Bomb</damageDef>
 			  <damageAmountBase>12</damageAmountBase>
 			  <explosionDelay>120</explosionDelay>
@@ -106,7 +106,7 @@ the weapons can download more of them.
 		<defName>Hand_Mortar_wea</defName>
 		<equipmentType>Primary</equipmentType>
 		<label>Hand Mortar</label>
-		<description>This grenade launching wheel-lock pistol dates back to the 1580's. It's designed to fire 2" calibre greanades.</description>
+		<description>This grenade launching wheel-lock pistol design dates back to the 1580's. It's designed to fire 2" calibre greanades. Popular among more desperate, feral or feudal tribes who are capable of making gunpowder, across the Rim Worlds.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_L_HandMortar</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -120,8 +120,8 @@ the weapons can download more of them.
 			<li>
 				<verbClass>Verb_LaunchProjectile</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<range>20</range>
-				<forcedMissRadius>2.8</forcedMissRadius>
+				<range>27</range>
+				<forcedMissRadius>1.0</forcedMissRadius>
 				<warmupTicks>220</warmupTicks>
 				<noiseRadius>4</noiseRadius>
 				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>

@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_HoKUMP45_PA</defName>
 		<label>H&amp;K UMP45</label>
-		<description>The UMP (Universale Maschinenpistole, German for "Universal Machine Pistol") is a submachine gun developed and manufactured by Heckler &amp; Koch. The UMP has been adopted by various agencies such as the U.S. Customs and Border Protection.\nCaliber: .45 ACP</description>
+		<description>The Heckler &amp; Koch UMP45 is a .45 caliber submachine gun of ancient design, developed in the mid-20th century. It is fairly popular on Rim Worlds. UMP version was manufactured for use by border patrols. \nCaliber: .45 ACP</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_SMG_HoKUMP45</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

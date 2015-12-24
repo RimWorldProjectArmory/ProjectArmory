@@ -26,7 +26,9 @@ the weapons can download more of them.
 			<label>bullet</label>
 			<useHitPoints>False</useHitPoints>
 			<neverMultiSelect>True</neverMultiSelect>
+			<graphicData>
 			<shaderType>Transparent</shaderType>
+			</graphicData>
 	</ThingDef>
 	
 <!-- ============================================================== -->
@@ -44,6 +46,7 @@ the weapons can download more of them.
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
+		<flyOverhead>false</flyOverhead>
 			<damageDef>Bullet</damageDef>
 			<DamageAmountBase>0</DamageAmountBase>
 			<Speed>99</Speed>

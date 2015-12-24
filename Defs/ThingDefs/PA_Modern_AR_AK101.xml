@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_AK101_PA</defName>
 		<label>AK-101</label>
-		<description>The AK-101 is an assault rifle of the Kalashnikov series. The AK-101 is designed for the world export market which is the standard of most NATO armies. \nCaliber: 5.56x45mm NATO</description>
+		<description>The Kalashnikov-pattern projectile-based assault rifles were extremely popular before the age of colonization. The 101 model is a 100-series model, based upon the all-favorite 5.56x45mm cartrige, and was at the time designed for export. Model 101 invention dates back to the end of 20th-start of 21th century. It is to this day popular with all the colonies which are in need of cheap but reliable firearms, AK-101 is actively used by colonial rimworld military factions for it's best balance between quality, price, function and uniformity. \nCaliber: 5.56x45mm NATO</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_AR_AK101</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

@@ -26,7 +26,9 @@ the weapons can download more of them.
 			<label>bullet</label>
 			<useHitPoints>False</useHitPoints>
 			<neverMultiSelect>True</neverMultiSelect>
-			<shaderType>Transparent</shaderType>
+			
+      <shaderType>Transparent</shaderType>
+   
 	</ThingDef>
 	
 <!--
@@ -223,4 +225,206 @@ BULLETS:
 		</projectile>
 	</ThingDef>
 
+	<!-- ============================================================== -->
+	<!-- Phaeston Model, Mass Accelerated Slug -->
+	<!-- Velocity: 1,600 m/s -->
+	<!-- Energy:   1,500 J   (ME3:[15 damage]*100)-->
+<!-- ============================================================== -->
+<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Phaeston_AR_PA</defName>
+		<label>Mass Accelerated Slug</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>6</DamageAmountBase>
+			<Speed>73.3</Speed>
+		</projectile>
+	</ThingDef>
+	<!-- ============================================================== -->
+	<!-- M-99 Saber Model, Mass Accelerated Slug -->
+	<!-- Velocity: 1,600 m/s -->
+	<!-- Energy:   5,000 J   (ME3:[50 damage]*100)-->
+<!-- ============================================================== -->
+<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_M99Saber_R_PA</defName>
+		<label>Mass Accelerated Slug</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Medium</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>21</DamageAmountBase>
+			<Speed>73.3</Speed>
+		</projectile>
+	</ThingDef>
+	
+	<!-- ============================================================== -->
+	<!-- N-7 Typhoon Model, Mass Accelerated Slug -->
+	<!-- Velocity: 1,600 m/s -->
+	<!-- Energy:   2,000 J   (ME3:[20 damage]*100)-->
+<!-- ============================================================== -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_N7Typhoon_LMG_PA</defName>
+		<label>Mass Accelerated Slug</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>5</DamageAmountBase>
+			<Speed>73.3</Speed>
+		</projectile>
+	</ThingDef>
+	<!-- ============================================================== -->
+	<!-- Black Widow Model, Mass Accelerated Slug -->
+	<!-- Velocity: 1,600 m/s -->
+	<!-- Energy:   6,600 J   (ME3:[66 damage]*100)-->
+<!-- ============================================================== -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_BlackWidow_SR_PA</defName>
+		<label>Mass Accelerated Slug</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Medium</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>40</DamageAmountBase>
+			<Speed>103.3</Speed>
+		</projectile>
+	</ThingDef>
+	<!-- ============================================================== -->
+	<!-- Krysae Sniper Rifle Model, Mass Accelerated Slug -->
+	<!-- Velocity: 1,600 m/s -->
+	<!-- Energy:   6,000 J   (ME3:[60 damage]*100)-->
+<!-- ============================================================== -->
+<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Krysae_SR_PA</defName>
+		<label>Mass Accelerated Slug</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Medium</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>39</DamageAmountBase>
+			<Speed>103.3</Speed>
+		</projectile>
+	</ThingDef>
+<!-- ============================================================== -->
+	<!-- M-29 Incisor Model, Mass Accelerated Slug -->
+	<!-- Velocity: 1,600 m/s -->
+	<!-- Energy:   2,300 J   (ME3:[23 damage]*100)-->
+<!-- ============================================================== -->
+<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_M29Incisor_SR_PA</defName>
+		<label>Mass Accelerated Slug</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>32</DamageAmountBase>
+			<Speed>103.3</Speed>
+		</projectile>
+	</ThingDef>
+	<!-- ============================================================== -->
+	<!-- M-90 Indra Model, Mass Accelerated Slug -->
+	<!-- Velocity: 1,600 m/s -->
+	<!-- Energy:   2,000 J   (ME3:[20 damage]*100)-->
+<!-- ============================================================== -->
+<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_M90Indra_SR_PA</defName>
+		<label>Mass Accelerated Slug</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>31</DamageAmountBase>
+			<Speed>103.3</Speed>
+		</projectile>
+	</ThingDef>
+	<!-- ============================================================== -->
+	<!-- M-92 Mantis Model, Mass Accelerated Slug -->
+	<!-- Velocity: 1,600 m/s -->
+	<!-- Energy:   6,600 J   (ME3:[66 damage]*100)-->
+<!-- ============================================================== -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_M92Mantis_SR_PA</defName>
+		<label>Mass Accelerated Slug</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>40</DamageAmountBase>
+			<Speed>103.3</Speed>
+		</projectile>
+	</ThingDef>
+	<!-- ============================================================== -->
+	<!-- M-97 Viper Model, Mass Accelerated Slug -->
+	<!-- Velocity: 1,600 m/s -->
+	<!-- Energy:   4,100 J   (ME3:[41 damage]*100)-->
+<!-- ============================================================== -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_M97Viper_SR_PA</defName>
+		<label>Mass Accelerated Slug</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>35</DamageAmountBase>
+			<Speed>103.3</Speed>
+		</projectile>
+	</ThingDef>
+	
+	<!-- ============================================================== -->
+	<!-- M-98 Widow Model, Mass Accelerated Slug -->
+	<!-- Velocity: 1,600 m/s -->
+	<!-- Energy:   7,500 J   (ME3:[75 damage]*100)-->
+<!-- ============================================================== -->
+<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_M97Viper_SR_PA</defName>
+		<label>Mass Accelerated Slug</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>46</DamageAmountBase>
+			<Speed>103.3</Speed>
+		</projectile>
+	</ThingDef>
+	<!-- ============================================================== -->
+	<!-- N7 Valiant Model, Mass Accelerated Slug -->
+	<!-- Velocity: 1,600 m/s -->
+	<!-- Energy:   5,000 J   (ME3:[50 damage]*100)-->
+<!-- ============================================================== -->
+<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_N7Valiant_SR_PA</defName>
+		<label>Mass Accelerated Slug</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<DamageAmountBase>37</DamageAmountBase>
+			<Speed>103.3</Speed>
+		</projectile>
+	</ThingDef>
 </ThingDefs>

@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_USAS12_PA</defName>
 		<label>Daewoo USAS-12</label>
-		<description> The Daewoo Universal Sports Auto Shotgun is a fully automatic shotgun chambered for 12 guage rounds.</description>
+		<description> The Daewoo Universal Sports Auto Shotgun is a fully automatic ancient shotgun pattern, chambered for 12 gauge rounds.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_S_USAS12</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -87,10 +87,10 @@ the weapons can download more of them.
 		<soundInteract>InteractRifle</soundInteract>
 		<statBases>
 			<MarketValue>686</MarketValue>
-			<AccuracyTouch>0.64</AccuracyTouch>
-			<AccuracyShort>0.44</AccuracyShort>
-			<AccuracyMedium>0.27</AccuracyMedium>
-			<AccuracyLong>0.14</AccuracyLong>
+			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyShort>0.81</AccuracyShort>
+			<AccuracyMedium>0.70</AccuracyMedium>
+			<AccuracyLong>0.57</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

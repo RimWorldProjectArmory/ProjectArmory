@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_MCMillanTac50_PA</defName>
 		<label>MC Millan Tac-50</label>
-		<description>The McMillan Tac-50 sniper rifle is produced in Phoenix, Arizona in the United States by McMillan Firearms Manufacturing. This long-range anti-materiel/anti-personnel weapon is based on previous designs from the same company, which first appeared during the late 1980s. McMillan makes several versions of .50 caliber rifles, based on the same proprietary action, for military, law enforcement and civilian use.</description>
+		<description>The McMillan Tac-50 pattern ancient sniper rifle was developed in late 20th century, little is known about it's origins.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_SR_MCMillanTac50</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

@@ -80,7 +80,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_DesertEagleMarkI_PA</defName>
 		<label>Desert Eagle Mark I</label>
-		<description> The Desert Eagle is a large-framed gas-operated semi-automatic pistol designed by Magnum Research in the United States together with IMI in Israel.</description>
+		<description> The Desert Eagle is a large-framed gas-operated semi-automatic pistol designed back in the late 20th century. It used to be one of the biggest caliber handguns known at a time. It is reasonably used on Rimworlds, but not overly-popular for it's massive recoil and weight. \nCaliber: .357 magnum</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_P_DesertEagleMarkI</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -89,9 +89,9 @@ the weapons can download more of them.
 		<statBases>
 			<MarketValue>302</MarketValue>
 			<AccuracyTouch>0.90</AccuracyTouch>
-			<AccuracyShort>0.74</AccuracyShort>
-			<AccuracyMedium>0.49</AccuracyMedium>
-			<AccuracyLong>0.36</AccuracyLong>
+			<AccuracyShort>0.81</AccuracyShort>
+			<AccuracyMedium>0.71</AccuracyMedium>
+			<AccuracyLong>0.65</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

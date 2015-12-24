@@ -79,18 +79,18 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_PancorJackhammerMark3A2_S_PA</defName>
 		<label>Pancor Jackhammer Mark 3-A2</label>
-		<description>The Pancor Jackhammer Mark 3-A2 is a bullpup gas operated fully automatic revolving shotgun.\nCaliber: 12 gauge</description>
+		<description>The Pancor Jackhammer Mark 3-A2 is a bullpup gas operated fully automatic revolving shotgun pattern which was never actively developed at any point of it's creation in the 20th century. Elite mercenaries which can afford to replicate the original are quite happy with the design.\nCaliber: 12 gauge</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_S_PancorJackhammerMark3A2</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractRifle</soundInteract>
 		<statBases>
-			<MarketValue>586</MarketValue>
-			<AccuracyTouch>0.62</AccuracyTouch>
-			<AccuracyShort>0.42</AccuracyShort>
-			<AccuracyMedium>0.25</AccuracyMedium>
-			<AccuracyLong>0.12</AccuracyLong>
+			<MarketValue>879</MarketValue>
+			<AccuracyTouch>0.87</AccuracyTouch>
+			<AccuracyShort>0.97</AccuracyShort>
+			<AccuracyMedium>0.84</AccuracyMedium>
+			<AccuracyLong>0.78</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
@@ -99,7 +99,7 @@ the weapons can download more of them.
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_12gauge_S_PA</projectileDef>
 				<warmupTicks>160</warmupTicks>
-				<range>11.9</range>
+				<range>18.9</range>
 				<burstShotCount>4</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<soundCast>ShotShotgun</soundCast>

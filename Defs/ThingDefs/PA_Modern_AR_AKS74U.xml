@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_AKS74U_PA</defName>
 		<label>AKS-74U</label>
-		<description>The AKS-74U is a compact carbine variation.\nCaliber: 5.45x39mm</description>
+		<description>The Kalashnikov-pattern projectile-based assault rifles were extremely popular before the age of colonization. The 74U model is a carbine version of 74 model, dating back to the year of 1974. It is to this day popular with all the colonies which are in need of cheap but reliable firearms, AKS-74U model sports a shortened construction, improving the mobility,sacrificing the accuracy and velocity. It is to this day is used on remote colonies as means of enforcing law when needed, fulfilling the same historical purpose. \nCaliber: 5.45x39mm</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_AR_AKS74U</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

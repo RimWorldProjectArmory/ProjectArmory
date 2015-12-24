@@ -90,9 +90,9 @@ the weapons can download more of them.
 		<statBases>
 			<MarketValue>680</MarketValue>
 			<AccuracyTouch>0.89</AccuracyTouch>
-			<AccuracyShort>0.64</AccuracyShort>
-			<AccuracyMedium>0.41</AccuracyMedium>
-			<AccuracyLong>0.22</AccuracyLong>
+			<AccuracyShort>0.84</AccuracyShort>
+			<AccuracyMedium>0.71</AccuracyMedium>
+			<AccuracyLong>0.62</AccuracyLong>
 			<RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
@@ -101,9 +101,9 @@ the weapons can download more of them.
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_303British_LMG_PA</projectileDef>
 				<warmupTicks>210</warmupTicks>
-				<range>31.6</range>
+				<range>19.7</range>
 				<burstShotCount>8</burstShotCount>
-				<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>15.3</ticksBetweenBurstShots>
 				<soundCast>ShotMinigun</soundCast>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>

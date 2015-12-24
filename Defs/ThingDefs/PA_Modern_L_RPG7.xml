@@ -92,7 +92,7 @@ the weapons can download more of them.
 		<projectile>
 			<damageDef>Bomb</damageDef>
 			<damageAmountBase>40</damageAmountBase>
-			<explosionRadius>2.5</explosionRadius>
+			<explosionRadius>5</explosionRadius>
 			<speed>50</speed>
 		</projectile>
 	</ThingDef>
@@ -102,13 +102,13 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_RPG7_PA</defName>
 		<label>RPG-7</label>
-		<description>The RPG-7 is a portable, unguided, shoulder-launched, anti-tank rocket-propelled grenade launcher.</description>
+		<description>The RPG-7 is a portable, unguided, shoulder-launched, anti-tank rocket-propelled grenade launcher pattern, developed in mid-20th century.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_L_RPG7</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>280</MarketValue>
+			<MarketValue>320</MarketValue>
 			<AccuracyTouch>0.60</AccuracyTouch>
 			<AccuracyShort>0.78</AccuracyShort>
 			<AccuracyMedium>0.90</AccuracyMedium>

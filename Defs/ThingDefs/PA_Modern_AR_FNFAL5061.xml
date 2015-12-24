@@ -81,7 +81,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_FNFAL5061_PA</defName>
 		<label>FN FAL 50.61</label>
-		<description>The Fusil Automatique Léger ("Light Automatic Rifle") or FAL is a self-loading, selective fire battle rifle produced by the Belgian armaments manufacturer Fabrique Nationale de Herstal (FN).\nCaliber: 7.62x51mm NATO</description>
+		<description>FAL is a self-loading, selective fire battle rifle produced in the 20th century. As the name suggessts, it is one of the first selective fire battle rifles to exist, as well as one of the actively used at a time. \nCaliber: 7.62x51mm NATO</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_AR_FNFAL5061</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -89,10 +89,10 @@ the weapons can download more of them.
 		<soundInteract>InteractRifle</soundInteract>
 		<statBases>
 			<MarketValue>525</MarketValue>
-			<AccuracyTouch>0.62</AccuracyTouch>
-			<AccuracyShort>0.77</AccuracyShort>
-			<AccuracyMedium>0.87</AccuracyMedium>
-			<AccuracyLong>0.96</AccuracyLong>
+			<AccuracyTouch>0.73</AccuracyTouch>
+			<AccuracyShort>0.82</AccuracyShort>
+			<AccuracyMedium>0.91</AccuracyMedium>
+			<AccuracyLong>0.76</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

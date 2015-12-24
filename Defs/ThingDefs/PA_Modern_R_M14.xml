@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_M14_PA</defName>
 		<label>M14</label>
-		<description>M14 rifle, officially the United States Rifle, 7.62 mm, M14,[5] is an American selective fire automatic rifle that fires 7.62x51mm NATOammunition. It gradually replaced the M1 Garand in U.S. Army service by 1961 and in U.S. Marine Corps service by 1965.\nCaliber: 7.62x51mm NATO </description>
+		<description>M14 rifle, mid-20th century pattern rifle,is a selective fire automatic rifle that fires 7.62x51mm ammunition. One of the more common rifles on Rimworlds. \nCaliber: 7.62x51mm NATO </description>
 		<graphicData>
 		<texPath>Things/Item/Gun_R_M14</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

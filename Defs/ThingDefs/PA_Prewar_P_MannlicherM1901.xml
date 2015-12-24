@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_MannlicherM1901_PA</defName>
 		<label>Mannlicher M1901</label>
-		<description>The Steyr Mannlicher M1901 is an elegant and simple early straight blow-back semi-automatic pistol.</description>
+		<description>The Steyr Mannlicher M1901 is an ancient pattern elegant and simple early straight blow-back semi-automatic pistol.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_P_MannlicherM1901</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -87,10 +87,10 @@ the weapons can download more of them.
 		<soundInteract>InteractPistol</soundInteract>
 		<statBases>
 			<MarketValue>159</MarketValue>
-			<AccuracyTouch>0.89</AccuracyTouch>
-			<AccuracyShort>0.68</AccuracyShort>
-			<AccuracyMedium>0.42</AccuracyMedium>
-			<AccuracyLong>0.29</AccuracyLong>
+			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyShort>0.89</AccuracyShort>
+			<AccuracyMedium>0.76</AccuracyMedium>
+			<AccuracyLong>0.61</AccuracyLong>
 			<RangedWeapon_Cooldown>0.64</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

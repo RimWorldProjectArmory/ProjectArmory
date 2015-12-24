@@ -77,20 +77,20 @@ the weapons can download more of them.
 	<!-- ============================================================== -->
 	
 	<ThingDef ParentName="BaseHumanGun">
-		<defName>Gun_Mosbearg500_PA</defName>
-		<label>Mosbearg500</label>
-		<description>Mossberg 500 is a series of pump-action shotguns manufactured by O.F. Mossberg and Sons</description>
+		<defName>Gun_Mossberg500_PA</defName>
+		<label>Mossberg500</label>
+		<description>Mossberg 500 is an ancient pattern of pump-action shotguns developed in early 20th century. /nCaliber: 12 ga. </description>
 		<graphicData>
 		<texPath>Things/Item/Gun_S_Mosbearg500</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractRifle</soundInteract>
 		<statBases>
-			<MarketValue>600</MarketValue>
-			<AccuracyTouch>0.62</AccuracyTouch>
-			<AccuracyShort>0.42</AccuracyShort>
-			<AccuracyMedium>0.25</AccuracyMedium>
-			<AccuracyLong>0.12</AccuracyLong>
+			<MarketValue>320</MarketValue>
+			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyShort>0.81</AccuracyShort>
+			<AccuracyMedium>0.73</AccuracyMedium>
+			<AccuracyLong>0.65</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
@@ -99,7 +99,7 @@ the weapons can download more of them.
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_12gauge_S_PA</projectileDef>
 				<warmupTicks>160</warmupTicks>
-				<range>11.9</range>
+				<range>18.9</range>
 				<burstShotCount>4</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<soundCast>ShotShotgun</soundCast>

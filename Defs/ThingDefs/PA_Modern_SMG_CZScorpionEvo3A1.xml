@@ -79,14 +79,14 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_CZScorpionEvo3A1_PA</defName>
 		<label>CZ Scorpion Evo 3 A1</label>
-		<description>The CZ Scorpion Evo 3 A1 is a modern submachine gun chambered in 9x19 used by security forces and armies around the world. The weapon is characterised by exceptional ergonomics, durability and ease of use.</description>
+		<description>The CZ Scorpion Evo 3 A1 is an ancient, early 21th century submachine gun chambered in 9x19 intended for use by security forces and armies. The weapon is characterised by exceptional ergonomics, durability and ease of use, which is why it is one of the favorites among the SMG patterns employed by Rimworlds.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_SMG_CZScorpionEvo3A1</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractSMG</soundInteract>
 		<statBases>
-			<MarketValue>350</MarketValue>
+			<MarketValue>450</MarketValue>
 			<AccuracyTouch>0.90</AccuracyTouch>
 			<AccuracyShort>0.95</AccuracyShort>
 			<AccuracyMedium>0.85</AccuracyMedium>

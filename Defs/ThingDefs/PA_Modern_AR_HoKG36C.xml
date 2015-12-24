@@ -79,16 +79,16 @@ the weapons can download more of them.
 	<!-- ============================================================== -->
 
 	<ThingDef ParentName="BaseHumanGun">
-		<defName>Gun_HoKG36C_wea</defName>
+		<defName>Gun_HoKG36C_PA</defName>
 		<label>H&amp;K G36C</label>
-		<description>G36C This subcarbine model is a further development of the G36K. It has a shorter barrel than the G36K, and a four-prong open-type flash hider.\nCaliber: 5.56x45mm NATO</description>
+		<description>G36C is a 5.56×45mm assault rifle designed during the late 20th century. This subcarbine model is a further development of the G36K. It has a shorter barrel than the G36K, and a four-prong open-type flash hider. Your standard automatic carbine rifle.\nCaliber: 5.56x45mm NATO</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_AR_HoKG36C</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractRifle</soundInteract>
 		<statBases>
-			<MarketValue>602</MarketValue>
+			<MarketValue>540</MarketValue>
 			<AccuracyTouch>0.95</AccuracyTouch>
 			<AccuracyShort>0.83</AccuracyShort>
 			<AccuracyMedium>0.68</AccuracyMedium>

@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_Remington700_PA</defName>
 		<label>Remington700</label>
-		<description>The Model 700 series of firearms are bolt-action rifles manufactured by Remington Arms since 1962</description>
+		<description>The Model 700 series of firearms are bolt-action rifles manufactured by Remington Arms since 1962 untill 2028</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_SR_Remington700</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

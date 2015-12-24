@@ -77,7 +77,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_AA12_PA</defName>
 		<label>AA-12</label>
-		<description>The Auto Assault-12 (AA-12), originally designed and known as the Atchisson Assault Shotgun, is a shotgun developed in 1972 by Maxwell Atchisson. The most prominent feature is reduced recoil.\nCaliber: 12 gauge</description>
+		<description>The Auto Assault-12 (AA-12)is an ancient shotgun developed in 1972 by Maxwell Atchisson. The most prominent feature is reduced recoil.\nCaliber: 12 gauge</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_S_AA12</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -85,10 +85,10 @@ the weapons can download more of them.
 		<soundInteract>InteractRifle</soundInteract>
 		<statBases>
 			<MarketValue>568</MarketValue>
-			<AccuracyTouch>0.66</AccuracyTouch>
-			<AccuracyShort>0.45</AccuracyShort>
-			<AccuracyMedium>0.39</AccuracyMedium>
-			<AccuracyLong>0.30</AccuracyLong>
+			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyShort>0.81</AccuracyShort>
+			<AccuracyMedium>0.74</AccuracyMedium>
+			<AccuracyLong>0.53</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
@@ -97,7 +97,7 @@ the weapons can download more of them.
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_12gauge_S_PA</projectileDef>
 				<warmupTicks>165</warmupTicks>
-				<range>10.9</range>
+				<range>20.9</range>
 				<burstShotCount>4</burstShotCount>
 				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 				<soundCast>ShotShotgun</soundCast>

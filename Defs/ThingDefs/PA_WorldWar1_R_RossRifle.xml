@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_RossRifle_PA</defName>
 		<label>Ross Rifle</label>
-		<description>The Ross Rifle is the first recorded gun to have a bullet velocity over 3000 fps. Used in WW1 it was unsuitible for trench warefare due to it's inability to handle dirt, but was concidered to be an excellent sniper rifle.</description>
+		<description>The Ross Rifle is the first recorded gun to have a bullet velocity over 3000 fps. Used in WW1 it was unsuitible for trench warefare due to it's inability to handle dirt, as well as short engaging distances and lack of proper sniper equipment at that era, but was concidered to be an excellent pioneer of sniper rifles.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_R_RossRifle</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -88,9 +88,9 @@ the weapons can download more of them.
 		<statBases>
 			<MarketValue>390</MarketValue>
 			<AccuracyTouch>0.96</AccuracyTouch>
-			<AccuracyShort>0.96</AccuracyShort>
-			<AccuracyMedium>0.92</AccuracyMedium>
-			<AccuracyLong>0.88</AccuracyLong>
+			<AccuracyShort>0.89</AccuracyShort>
+			<AccuracyMedium>0.88</AccuracyMedium>
+			<AccuracyLong>0.87</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
@@ -99,7 +99,7 @@ the weapons can download more of them.
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_303British_R_PA</projectileDef>
 				<warmupTicks>130</warmupTicks>
-				<range>37.9</range>
+				<range>32.6</range>
 				<soundCast>ShotSurvivalRifle</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>

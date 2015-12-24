@@ -80,7 +80,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_FAMASG2_PA</defName>
 		<label>FAMAS-G2</label>
-		<description>The FAMAS is a bullpup-styled assault rifle designed and manufactured in France by MAS located in Saint-Étienne, which is now a member of the French government-owned Nexter group. It is the service rifle of the French military.\nCaliber: 5.56x45mm NATO</description>
+		<description>The FAMAS is an ancient pattern bullpup-styled assault rifle, dating back to the 20th century. It offers increase in accuracy and mobility at the cost of hefty price. \nCaliber: 5.56x45mm NATO</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_AR_FAMASG2</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

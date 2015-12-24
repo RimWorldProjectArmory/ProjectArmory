@@ -98,8 +98,8 @@ the weapons can download more of them.
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_8mmLebel_R_PA</projectileDef>
-				<warmupTicks>130</warmupTicks>
-				<range>24.7</range>
+				<warmupTicks>190</warmupTicks>
+				<range>33.4</range>
 				<soundCast>ShotSurvivalRifle</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>

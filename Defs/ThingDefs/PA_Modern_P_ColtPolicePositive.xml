@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_ColtPolicePositive_PA</defName>
 		<label>Colt Police Positive</label>
-		<description> The Colt Police Positive is a small-frame double-action revolver featuring a six-round cylinder, chambered for either .32 or .38 caliber cartridges. Designed primarily for sale to federal, state, or local law enforcement agencies, the Police Positive was introduced into the firearms market by the Colt's Manufacturing Company in 1907.\nCaliber: .32 S&amp;W Long</description>
+		<description> The Colt Police Positive is a primitive small-frame double-action revolver featuring a six-round cylinder, chambered for either .32 or .38 caliber cartridges. Designed in the start of 20th century, the design remains popular to this day amongst all the colonists of Rimworlds for it's maintainability and price. \nCaliber: .32 S&amp;W Long</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_P_ColtPolicePositive</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -88,9 +88,9 @@ the weapons can download more of them.
 		<statBases>
 			<MarketValue>120</MarketValue>
 			<AccuracyTouch>0.90</AccuracyTouch>
-			<AccuracyShort>0.70</AccuracyShort>
-			<AccuracyMedium>0.48</AccuracyMedium>
-			<AccuracyLong>0.34</AccuracyLong>
+			<AccuracyShort>0.83</AccuracyShort>
+			<AccuracyMedium>0.76</AccuracyMedium>
+			<AccuracyLong>0.64</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_WaltherPPK_PA</defName>
 		<label>Walther PPK</label>
-		<description>The Walther Polizeipistole Kriminalmodell, or Police Pistol Detective Model, is a blowback operated semi-automatic double action pistol.</description>
+		<description>The Walther Polizeipistole Kriminalmodell, or Police Pistol Detective Model, is a blowback operated semi-automatic double action pistol designed in mid-20th century.</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_P_WaltherPPK</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -88,9 +88,9 @@ the weapons can download more of them.
 		<statBases>
 			<MarketValue>139</MarketValue>
 			<AccuracyTouch>0.92</AccuracyTouch>
-			<AccuracyShort>0.72</AccuracyShort>
-			<AccuracyMedium>0.52</AccuracyMedium>
-			<AccuracyLong>0.38</AccuracyLong>
+			<AccuracyShort>0.82</AccuracyShort>
+			<AccuracyMedium>0.72</AccuracyMedium>
+			<AccuracyLong>0.60</AccuracyLong>
 			<RangedWeapon_Cooldown>0.64</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

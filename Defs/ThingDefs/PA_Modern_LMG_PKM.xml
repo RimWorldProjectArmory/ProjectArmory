@@ -78,7 +78,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_PKM_PA</defName>
 		<label>PKM</label>
-		<description> The PKM is a 7.62 mm general-purpose machine gun designed in the Soviet Union and currently in production in Russia.</description>
+		<description> The PKM is an ancient 7.62 mm general-purpose machine gun designed in mid-20th century.\nCaliber: 7.62x39mm</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_LMG_PKM</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -86,12 +86,15 @@ the weapons can download more of them.
 		<soundInteract>InteractRifle</soundInteract>
 		<statBases>
 			<MarketValue>710</MarketValue>
-			<AccuracyTouch>0.8</AccuracyTouch>
-			<AccuracyShort>0.90</AccuracyShort>
-			<AccuracyMedium>0.87</AccuracyMedium>
-			<AccuracyLong>0.82</AccuracyLong>
+			<AccuracyTouch>0.92</AccuracyTouch>
+			<AccuracyShort>0.86</AccuracyShort>
+			<AccuracyMedium>0.78</AccuracyMedium>
+			<AccuracyLong>0.71</AccuracyLong>
 			<RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
 		</statBases>
+		<equippedStatOffsets>
+		  <MoveSpeed>-0.15</MoveSpeed>
+		</equippedStatOffsets>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>

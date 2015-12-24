@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_AK74M_PA</defName>
 		<label>AK-74M</label>
-		<description>The AK-74M is a variation adopted in the early 90's and the current standard rifle used by the Russian military, main differences being a side-folding stock and a side rail for mounting scopes, as well as the black colour.\nCaliber: 5.45x39mm</description>
+		<description>The Kalashnikov-pattern projectile-based assault rifles were extremely popular before the age of colonization. The 74M model is a modernized(at the time) variant of AK-74 which came to be around the end of the 20th century. Numerous minor improvements were made at the time upon the base design, improving upon weight with replacing the wood stock with glass-filled polyamide stock, and adding rail components for installing various modifications.  It is reasonably popular with colonial military forces which prefer to manufacture their own weapons based on the machinery they have, while keeping the costs low. \nCaliber: 5.45x39mm</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_AR_AK74M</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

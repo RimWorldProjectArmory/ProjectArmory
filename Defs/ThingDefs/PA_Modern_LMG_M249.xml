@@ -73,7 +73,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_M249_PA</defName>
 		<label>M249</label>
-		<description> The M249 light machine gun (LMG), previously designated the M249 Squad Automatic Weapon (SAW), and formally written as Light Machine Gun, 5.56 mm, M249, is the American adaptation of the Belgian FN Minimi, a light machine gun manufactured by the Belgian company FN Herstal (FN).</description>
+		<description> The M249 is a late-20th century pattern of light machine guns, as all projectile weapons, this one is popular on Rimworlds as means of defense and offense.\nCaliber: 5.56x45mm</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_LMG_M249</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -84,16 +84,19 @@ the weapons can download more of them.
 			<AccuracyTouch>0.79</AccuracyTouch>
 			<AccuracyShort>0.84</AccuracyShort>
 			<AccuracyMedium>0.81</AccuracyMedium>
-			<AccuracyLong>0.82</AccuracyLong>
+			<AccuracyLong>0.74</AccuracyLong>
 			<RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
 		</statBases>
+		<equippedStatOffsets>
+		  <MoveSpeed>-0.15</MoveSpeed>
+		</equippedStatOffsets>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_556x45mmNATO_LMG_PA</projectileDef>
 				<warmupTicks>202</warmupTicks>
-				<range>25.6</range>
+				<range>28.6</range>
 				<burstShotCount>12</burstShotCount>
 				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 				<soundCast>ShotMinigun</soundCast>

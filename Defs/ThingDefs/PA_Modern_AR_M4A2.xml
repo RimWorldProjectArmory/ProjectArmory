@@ -80,7 +80,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_M4A2_PA</defName>
 		<label>M4A2</label>
-		<description>The M4A2 carbine is a fully automatic variant of the basic M4 carbine intended for special operations use.\nCaliber: 5.56x45mm NATO</description>
+		<description>The M4A2 carbine is a fully automatic variant of the basic M4 late-20th century pattern carbine intended for special operations use.\nCaliber: 5.56x45mm NATO</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_AR_M4A2</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

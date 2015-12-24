@@ -89,10 +89,10 @@ the weapons can download more of them.
 		<soundInteract>InteractRifle</soundInteract>
 		<statBases>
 			<MarketValue>55</MarketValue>
-			<AccuracyTouch>0.63</AccuracyTouch>
-			<AccuracyShort>0.71</AccuracyShort>
-			<AccuracyMedium>0.41</AccuracyMedium>
-			<AccuracyLong>0.39</AccuracyLong>
+			<AccuracyTouch>0.81</AccuracyTouch>
+			<AccuracyShort>0.76</AccuracyShort>
+			<AccuracyMedium>0.61</AccuracyMedium>
+			<AccuracyLong>0.49</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

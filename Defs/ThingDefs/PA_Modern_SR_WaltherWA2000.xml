@@ -79,7 +79,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_WaltherWA2000_PA</defName>
 		<label>Walther WA 2000</label>
-		<description>The Walther WA2000 is a bull-pup semi-automatic sniper rifle. This one is chambered in .300 Winchester Magnum, a round known for it's long range accuracy and concistancy at all ranges.\nCaliber: 7.62x51mm NATO</description>
+		<description>The Walther WA2000 is a bull-pup semi-automatic ancient pattern sniper rifle. This one is chambered in .300 Winchester Magnum, a round known for it's long range accuracy and concistancy at all ranges.\nCaliber: 7.62x51mm NATO</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_SR_WaltherWA2000</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

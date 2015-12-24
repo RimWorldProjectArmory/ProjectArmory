@@ -80,7 +80,7 @@ the weapons can download more of them.
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_HoKMP5A5_PA</defName>
 		<label>H&amp;K MP5A5</label>
-		<description> The Heckler &amp; Koch MP5 (from German: Maschinenpistole 5, "machine pistol model 5") is a 9mm submachine gun of German design, developed in the 1960s by a team of engineers from the German small arms manufacturer Heckler &amp; Koch GmbH (H&amp;K) of Oberndorf am Neckar.\nCaliber: 9x19mm Parabellum</description>
+		<description> The Heckler &amp; Koch MP5 is a 9mm submachine gun of ancient design, developed in the mid-20th century. It is fairly popular on RimWorlds.\nCaliber: 9x19mm Parabellum</description>
 		<graphicData>
 		<texPath>Things/Item/Gun_SMG_HoKMP5A5</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

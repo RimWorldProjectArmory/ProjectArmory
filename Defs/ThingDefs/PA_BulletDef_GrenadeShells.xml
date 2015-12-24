@@ -26,7 +26,9 @@ the weapons can download more of them.
 			<label>bullet</label>
 			<useHitPoints>False</useHitPoints>
 			<neverMultiSelect>True</neverMultiSelect>
-			<shaderType>Transparent</shaderType>
+			
+      <shaderType>Transparent</shaderType>
+    
 	</ThingDef>
 	
 <!--
@@ -51,9 +53,9 @@ BULLETS:
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
-			<explosionRadius>1.9</explosionRadius>
+			<explosionRadius>3.4</explosionRadius>
 			<damageDef>Bomb</damageDef>
-			<DamageAmountBase>12</DamageAmountBase>
+			<DamageAmountBase>24</DamageAmountBase>
 			<Speed>30</Speed>
 		</projectile>
 	</ThingDef>
