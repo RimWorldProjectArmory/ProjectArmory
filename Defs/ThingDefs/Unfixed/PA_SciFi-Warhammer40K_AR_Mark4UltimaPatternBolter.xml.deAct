@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+<!--
+PROJECT ARMORY WEAPON
+
+CODE AUTHOR: Plymouth
+TEXTURE MAKER: Plymouth
+
+
+USER LICENSE:
+All weapons texture and code may be altered to the users
+liking to fit the world the user wants to create.
+You may add or remove weapons of your downloaded
+Project Armory Pack to further more customize your world.
+You are also allowed to publish Project Armory weapons
+in your own modpack or mod. The only thing we ask for
+is that you link to our forum page so people that like
+the weapons can download more of them.
+-->
+
+	<ThingDef Name="BaseGun" Abstract="True">
+		<category>Item</category>
+
+		<thingClass>ThingWithComps</thingClass>
+		<equipmentType>Primary</equipmentType>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<selectable>True</selectable>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<SellPriceFactor>0.5</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<techLevel>Spacer</techLevel>
+		<thingCategories>
+			<li>WeaponsRangedAssaultRifles</li>
+		</thingCategories>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<comps>
+			<li>
+				<compClass>CompForbiddable</compClass>
+			</li>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li>
+				<compClass>CompArt</compClass>
+				<nameMaker>NamerGun</nameMaker>
+				<descriptionMaker>ArtWeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+		<smeltProducts>
+		  <Steel>20</Steel>
+		</smeltProducts>
+	</ThingDef>
+	
+	<ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
+		<weaponTags>
+			<li>W40KBolter</li>
+		</weaponTags>
+	</ThingDef>
+
+	<!-- ============================================================== -->
+
+	<ThingDef ParentName="BaseHumanGun" Name="XML_Mark4UltimaPatternBolter_PA">
+		<defName>Gun_Mark4UltimaPatternBolter_PA</defName>
+		<label>Mark 4 Ultima Pattern Bolter</label>
+		<description>Godwyn Ultima Pattern - The Godwyn Ultima Pattern Bolter is a weapon very similar to the Godwyn Mark Vb Bolter, which is the most common bolter of the Imperium and was known to have been used by the Minotaurs and Exorcists Chapters during the Badab War.\nCaliber: .75 Caliber Standard Bolt Round</description>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark4UltimaPatternBolters/Gun_AR_Mark4UltimaPatternBolter</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPistol</soundInteract>
+		<statBases>
+			<MarketValue>675</MarketValue>
+			<AccuracyTouch>0.96</AccuracyTouch>
+			<AccuracyShort>0.87</AccuracyShort>
+			<AccuracyMedium>0.77</AccuracyMedium>
+			<AccuracyLong>0.64</AccuracyLong>
+			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+		  <MoveSpeed>-0.18</MoveSpeed>
+		</equippedStatOffsets>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_75CaliberSBR_AR_PA</projectileDef>
+				<warmupTicks>170</warmupTicks>
+				<range>31</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+				<soundCast>ShotBoltgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark4UltimaPatternBolter_PA">
+		<defName>Gun_Mark4UltimaPatternBolterA_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark4UltimaPatternBolters/Gun_AR_Mark4UltimaPatternBolterA</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark4UltimaPatternBolter_PA">
+		<defName>Gun_Mark4UltimaPatternBolterB_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark4UltimaPatternBolters/Gun_AR_Mark4UltimaPatternBolterB</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark4UltimaPatternBolter_PA">
+		<defName>Gun_Mark4UltimaPatternBolterC_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark4UltimaPatternBolters/Gun_AR_Mark4UltimaPatternBolterC</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark4UltimaPatternBolter_PA">
+		<defName>Gun_Mark4UltimaPatternBolterD_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark4UltimaPatternBolters/Gun_AR_Mark4UltimaPatternBolterD</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark4UltimaPatternBolter_PA">
+		<defName>Gun_Mark4UltimaPatternBolterE_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark4UltimaPatternBolters/Gun_AR_Mark4UltimaPatternBolterE</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark4UltimaPatternBolter_PA">
+		<defName>Gun_Mark4UltimaPatternBolterF_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark4UltimaPatternBolters/Gun_AR_Mark4UltimaPatternBolterF</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark4UltimaPatternBolter_PA">
+		<defName>Gun_Mark4UltimaPatternBolterG_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark4UltimaPatternBolters/Gun_AR_Mark4UltimaPatternBolterG</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark4UltimaPatternBolter_PA">
+		<defName>Gun_Mark4UltimaPatternBolterH_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark4UltimaPatternBolters/Gun_AR_Mark4UltimaPatternBolterH</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark4UltimaPatternBolter_PA">
+		<defName>Gun_Mark4UltimaPatternBolterI_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark4UltimaPatternBolters/Gun_AR_Mark4UltimaPatternBolterI</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark4UltimaPatternBolter_PA">
+		<defName>Gun_Mark4UltimaPatternBolterJ_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark4UltimaPatternBolters/Gun_AR_Mark4UltimaPatternBolterJ</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark4UltimaPatternBolter_PA">
+		<defName>Gun_Mark4UltimaPatternBolterK_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark4UltimaPatternBolters/Gun_AR_Mark4UltimaPatternBolterK</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark4UltimaPatternBolter_PA">
+		<defName>Gun_Mark4UltimaPatternBolterL_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark4UltimaPatternBolters/Gun_AR_Mark4UltimaPatternBolterL</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_Mark4UltimaPatternBolter_PA">
+		<defName>Gun_Mark4UltimaPatternBolterM_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_Mark4UltimaPatternBolters/Gun_AR_Mark4UltimaPatternBolterM</texPath>
+	</ThingDef>
+</ThingDefs>
+	

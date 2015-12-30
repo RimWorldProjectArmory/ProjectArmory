@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+<!--
+PROJECT ARMORY WEAPON
+
+CODE AUTHOR: Plymouth
+TEXTURE MAKER: Plymouth
+
+
+USER LICENSE:
+All weapons texture and code may be altered to the users
+liking to fit the world the user wants to create.
+You may add or remove weapons of your downloaded
+Project Armory Pack to further more customize your world.
+You are also allowed to publish Project Armory weapons
+in your own modpack or mod. The only thing we ask for
+is that you link to our forum page so people that like
+the weapons can download more of them.
+-->
+
+	<ThingDef Name="BaseGun" Abstract="True">
+		<category>Item</category>
+
+		<thingClass>ThingWithComps</thingClass>
+		<equipmentType>Primary</equipmentType>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<selectable>True</selectable>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<SellPriceFactor>0.5</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<techLevel>Spacer</techLevel>
+		<thingCategories>
+			<li>WeaponsRangedAssaultRifles</li>
+		</thingCategories>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<comps>
+			<li>
+				<compClass>CompForbiddable</compClass>
+			</li>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li>
+				<compClass>CompArt</compClass>
+				<nameMaker>NamerGun</nameMaker>
+				<descriptionMaker>ArtWeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+		<smeltProducts>
+		  <Steel>20</Steel>
+		</smeltProducts>
+	</ThingDef>
+	
+	<ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
+		<weaponTags>
+			<li>W40KBolter</li>
+		</weaponTags>
+	</ThingDef>
+
+	<!-- ============================================================== -->
+
+	<ThingDef ParentName="BaseHumanGun" Name="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolter_PA</defName>
+		<label>&quot;Locken's Valor&quot; Heresy Bolter</label>
+		<description> Umbra Pattern bolter with an Eximus barrel and a Ryza Pattern targeting system. Handcrafted by techmarines during the events of Horus Heresy.\nCaliber: .75 Caliber Standard Bolt Round</description>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolter</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPistol</soundInteract>
+		<statBases>
+			<MarketValue>1320</MarketValue>
+			<AccuracyTouch>0.94</AccuracyTouch>
+			<AccuracyShort>0.93</AccuracyShort>
+			<AccuracyMedium>0.86</AccuracyMedium>
+			<AccuracyLong>0.83</AccuracyLong>
+			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+		  <MoveSpeed>-0.25</MoveSpeed>
+		</equippedStatOffsets>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_75CaliberSBR_AR_PA</projectileDef>
+				<warmupTicks>170</warmupTicks>
+				<range>35</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+				<soundCast>ShotShotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterA_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterA</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterB_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterB</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterC_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterC</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterD_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterD</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterE_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterE</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterF_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterF</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterG_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterG</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterH_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterH</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterI_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterI</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterJ_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterJ</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterK_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterK</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterL_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterL</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterM_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterM</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterN_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterN</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterO_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterO</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterP_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterP</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterQ_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterQ</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterR_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterR</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterS_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterS</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterT_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterT</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterU_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterU</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterV_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterV</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterW_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterW</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterX_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterX</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterY_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterY</texPath>
+	</ThingDef>
+	<ThingDef ParentName="XML_UmbraEximusRyzaPatternBolter_PA">
+		<defName>Gun_UmbraEximusRyzaPatternBolterZ_PA</defName>
+		<graphicData>
+		<texPath>Things/Item/Warhammer40K/Gun_AR_UmbraEximusRyzaPatternBolters/Gun_AR_UmbraEximusRyzaPatternBolterZ</texPath>
+	</ThingDef>
+</ThingDefs>

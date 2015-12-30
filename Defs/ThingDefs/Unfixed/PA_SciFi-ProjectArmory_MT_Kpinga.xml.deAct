@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+<!--
+PROJECT ARMORY WEAPON
+
+CODE AUTHOR: BOG
+TEXTURE MAKER: Bog
+
+
+USER LICENSE:
+All weapons texture and code may be altered to the users
+liking to fit the world the user wants to create.
+You may add or remove weapons of your downloaded
+Project Armory Pack to further more customize your world.
+You are also allowed to publish Project Armory weapons
+in your own modpack or mod. The only thing we ask for
+is that you link to our forum page so people that like
+the weapons can download more of them.
+-->
+
+	<ThingDef Name="BaseWeaponNeolithic" Abstract="True">
+		<category>Item</category>
+
+		<thingClass>ThingWithComps</thingClass>
+		<equipmentType>Primary</equipmentType>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<selectable>True</selectable>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<techLevel>Midworld</techLevel>
+		<thingCategories>
+			<li>WeaponsRangedLaunchers</li>
+		</thingCategories>
+		<comps>
+		<li>
+			<compClass>CompForbiddable</compClass>
+		</li>
+		<li>
+		<compClass>CompQuality</compClass>
+		</li>
+		</comps>
+		<smeltProducts>
+		  <Steel>10</Steel>
+		</smeltProducts>
+	</ThingDef>
+
+  <ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
+		<weaponTags>
+			<li>Gun</li>
+			<li>GunHeavy</li>
+		</weaponTags>
+  </ThingDef>
+ 
+
+	<!-- ========================== SPECIFICS ============================== -->
+
+
+
+ 
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>Gun_Kpinga_PA</defName>
+    <label>Kpinga</label>
+		<description> The Woomera is a weapon which acts as an extention of the human arm to cause it's dart to travel a much greater distance and speed than it would if just thrown.</description>
+    <graphicData>
+		<texPath>Things/Item/Gun_L_Kpinga</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+    <soundInteract>Interact_BeatFire</soundInteract>
+    <costList>
+      <WoodLog>60</WoodLog>
+    </costList>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <MarketValue>70</MarketValue>
+      <AccuracyTouch>0.91</AccuracyTouch>
+      <AccuracyShort>0.82</AccuracyShort>
+      <AccuracyMedium>0.72</AccuracyMedium>
+      <AccuracyLong>0.66</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>NeolithicRanged</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Kpinga_Thrown_PA</projectileDef>
+        <warmupTicks>170</warmupTicks>
+        <range>25</range>
+        <soundCast>Interact_BeatFire</soundCast>
+      </li>
+    </verbs>
+  </ThingDef>
+</ThingDefs>

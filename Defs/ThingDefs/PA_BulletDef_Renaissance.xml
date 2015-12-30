@@ -26,9 +26,9 @@ the weapons can download more of them.
 			<label>bullet</label>
 			<useHitPoints>False</useHitPoints>
 			<neverMultiSelect>True</neverMultiSelect>
-			
-      <shaderType>Transparent</shaderType>
-    
+	<graphicData>
+			<shaderType>Transparent</shaderType>
+			</graphicData>
 	</ThingDef>
 
 <!-- THIS BULLET FILE REQUIRES ProjectArmory.dll to function.-->

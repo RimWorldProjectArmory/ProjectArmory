@@ -28,8 +28,7 @@ https://en.wikipedia.org/wiki/List_of_infantry_weapons_of_World_War_I
 			<label>bullet</label>
 			<useHitPoints>False</useHitPoints>
 			<neverMultiSelect>True</neverMultiSelect>
-			
-      <shaderType>Transparent</shaderType>
+	
   
 	</ThingDef>
 	
