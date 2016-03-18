@@ -10,9 +10,6 @@ The Weapons Kit Switcher tool is located in the mod directory were you install y
 #### Make your own category:
 It is possible to make custom kits in the switcher. The switcher reads the file name of the weapons and in turn makes the category. To add you own simply edit the [WorldTag], example: Modern, in to you own name and the switcher will recognize the new category.
 
-### Credit
-mrofa (For fixing our assembly code.)
-
 ### User License:
 
 CC-BY-NC-SA
